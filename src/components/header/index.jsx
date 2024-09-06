@@ -15,6 +15,7 @@ const Header = () => {
       </div>
       <div className={styles.delivery}>
         deliver to <br />
+        {/*TODO change this later */}
         <img src={location} alt="location" />
         Germany
       </div>
@@ -27,6 +28,7 @@ const Header = () => {
           <IoMdSearch />
         </span>
       </div>
+      {/* TODO make this part more dynamic : co&children */}
       <div className={styles.dropdownMenu}>
         <ul>
           <li>
