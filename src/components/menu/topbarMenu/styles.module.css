@@ -1,0 +1,22 @@
+.topbarMenu {
+  height: 40px;
+  background-color: #222f3f;
+  padding: 0 32px;
+}
+
+.topbarMenu ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 16px;
+}
+
+.topbarMenu ul li {
+  color: #fff;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 15px;
+}
