@@ -1,0 +1,34 @@
+.slider {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.slider img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  margin-inline: auto;
+}
+
+.slider button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.slider .prev {
+  top: 50%;
+  left: 20px;
+  transform: translate(0, -50%);
+}
+.slider .next {
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+}
