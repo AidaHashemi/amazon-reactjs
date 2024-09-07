@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import { CardContext } from "../../context/CardContext";
 import StarRating from "../../functions/StarRating";
+import DiscountedAmount from "../../functions/DiscountedAmount";
 
 import styles from "./styles.module.css";
 const Product = () => {
@@ -35,8 +36,10 @@ const Product = () => {
         <p>Price: {card.price}</p>
         <p>Discount: {card.discount}</p>
       </div>
+      {/* TODO It will be a component  */}
       <div className={styles.addToCart}>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <span>Buy New :</span>
+        <span>${DiscountedAmount(card.price, card.discount).toFixed(2)}</span>
       </div>
     </div>
   );
