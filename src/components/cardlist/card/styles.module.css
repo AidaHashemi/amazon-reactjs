@@ -1,0 +1,48 @@
+.card {
+  width: 230px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 8px;
+}
+
+.card img {
+  width: 90%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.title {
+  width: 100%;
+  /* background-color: yellow; */
+  padding-bottom: 8px;
+  border-bottom: 2px solid #ccc;
+}
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+.price span:last-child {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #555;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cardInfo span:last-child {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+
+.cardInfo span:last-child:hover {
+  color: rgb(228, 52, 52);
+}

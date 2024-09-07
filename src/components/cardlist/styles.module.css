@@ -1,0 +1,18 @@
+.cardLink {
+  text-decoration: none;
+  color: #333;
+}
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(5, 230px);
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  /* position: absolute;
+  top: 70%;
+  z-index: 999;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 48px 0; */
+  padding: 48px 0;
+}
