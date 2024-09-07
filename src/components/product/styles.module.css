@@ -1,0 +1,36 @@
+.productDetails {
+  display: flex;
+}
+
+.imgContainer {
+  padding: 20px;
+}
+.imgContainer img {
+  width: 250px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+}
+.productInfo a {
+  text-decoration: none;
+  color: #444;
+}
+
+.productDetails a:hover {
+  text-decoration: underline;
+}
+
+.addToCart {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 30%;
+  padding: 20px;
+  background-color: yellowgreen;
+}
