@@ -1,5 +1,8 @@
 .productDetails {
   display: flex;
+  position: relative;
+  height: 80vh;
+  min-height: 80vh;
 }
 
 .imgContainer {
@@ -7,7 +10,7 @@
 }
 .imgContainer img {
   width: 250px;
-  height: 500px;
+  height: 90%;
   object-fit: cover;
 }
 
@@ -33,4 +36,18 @@
   width: 30%;
   padding: 20px;
   /* background-color: yellowgreen; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+}
+
+.radioIcon {
+  color: rgb(85, 85, 224);
+  position: absolute;
+  right: 20px;
+  font-size: 24px;
 }

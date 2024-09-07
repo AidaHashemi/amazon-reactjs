@@ -1,13 +1,21 @@
 import { useParams } from "react-router-dom";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { CardContext } from "../../context/CardContext";
 import StarRating from "../../functions/StarRating";
 import DiscountedAmount from "../../functions/DiscountedAmount";
+import { IoLocationSharp } from "react-icons/io5";
+import { IoMdRadioButtonOn } from "react-icons/io";
+import Button from "../button";
 
 import styles from "./styles.module.css";
 const Product = () => {
+  const [selectedNumber, setSelectedNumber] = useState(1);
   const { id } = useParams();
   const { cards, loading } = useContext(CardContext);
+
+  const handleChange = (event) => {
+    setSelectedNumber(event.target.value);
+  };
 
   if (loading) return <div>Loading...</div>;
 
@@ -38,9 +46,46 @@ const Product = () => {
       </div>
       {/* TODO It will be a component  */}
       <div className={styles.addToCart}>
+        <span className={styles.radioIcon}>
+          <IoMdRadioButtonOn />
+        </span>
         <span>Buy New :</span>
         <span>${DiscountedAmount(card.price, card.discount).toFixed(2)}</span>
+        <p>
+          $91.31 Shipping & Import Fees Deposit to Germany Details Delivery
+          Wednesday, May 15
+        </p>
+        <p>In Stock</p>
+        <span>
+          <IoLocationSharp /> Deliver to Germany
+        </span>
+        <form className={styles.form}>
+          <select
+            id="number-select"
+            value={selectedNumber}
+            onChange={handleChange}
+            className="border rounded p-2"
+          >
+            {[...Array(20)].map((_, index) => (
+              <option key={index + 1} value={index + 1}>
+                Quantity {index + 1}
+              </option>
+            ))}
+          </select>
+          {/* <button>Add to Cart</button> */}
+          <Button
+            text="Primary Button"
+            color="warning"
+            size="medium"
+            textColor="#333"
+            borderRadius="20px"
+            style={{
+              boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+            }}
+          />
+        </form>
       </div>
+      {/* TODO : I WILL COMPLETE THIS PART  */}
     </div>
   );
 };
