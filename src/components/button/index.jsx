@@ -3,7 +3,7 @@ const Button = ({
   color = "primary",
   textColor = "#fff",
   text = "Button",
-  borderRadius = "4px",
+  borderRadius = "8px",
   onClick,
   style = {},
   disabled = false,

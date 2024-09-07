@@ -1,5 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import axios from "axios";
+import Spinner from "../components/spinner";
 
 export const CardContext = createContext();
 
@@ -21,6 +22,10 @@ export const CardProvider = ({ children }) => {
 
     fetchCards();
   }, []);
+
+  if (loading) {
+    return <Spinner />;
+  }
 
   return (
     <CardContext.Provider value={{ cards, loading }}>

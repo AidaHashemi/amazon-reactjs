@@ -103,3 +103,8 @@
 .header ul li:last-child span {
   font-size: 30px;
 }
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -4,6 +4,7 @@ import usaFlag from "../../assets/svg/usa.svg";
 import { IoMdSearch } from "react-icons/io";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 import styles from "./styles.module.css";
 
@@ -44,10 +45,12 @@ const Header = () => {
             &Orders
           </li>
           <li>
-            <span>
-              <MdOutlineShoppingCart />
-            </span>
-            Cart
+            <Link to="cart" className={styles.link}>
+              <span>
+                <MdOutlineShoppingCart />
+              </span>
+              Cart
+            </Link>
           </li>
         </ul>
       </div>
