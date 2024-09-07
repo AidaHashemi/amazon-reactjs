@@ -51,11 +51,12 @@ const Product = () => {
         </span>
         <span>Buy New :</span>
         <span>${DiscountedAmount(card.price, card.discount).toFixed(2)}</span>
+        {/* TODO dynamic date */}
         <p>
           $91.31 Shipping & Import Fees Deposit to Germany Details Delivery
           Wednesday, May 15
         </p>
-        <p>In Stock</p>
+        <span className={styles.inStock}>In Stock</span>
         <span>
           <IoLocationSharp /> Deliver to Germany
         </span>
@@ -64,7 +65,7 @@ const Product = () => {
             id="number-select"
             value={selectedNumber}
             onChange={handleChange}
-            className="border rounded p-2"
+            className={styles.select}
           >
             {[...Array(20)].map((_, index) => (
               <option key={index + 1} value={index + 1}>
