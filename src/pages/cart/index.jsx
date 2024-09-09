@@ -1,11 +1,23 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { CartContext } from "../../context/CartContext";
 import Button from "../../components/button";
-
 import styles from "./styles.module.css";
 
 const Cart = () => {
-  const { cart } = useContext(CartContext);
+  const { cart, updateCartItemQuantity, removeFromCart } =
+    useContext(CartContext);
+  const [editingItem, setEditingItem] = useState(null);
+  const [newQuantity, setNewQuantity] = useState(1);
+
+  const handleQuantityChange = (item, quantity) => {
+    setEditingItem(item.id);
+    setNewQuantity(quantity);
+  };
+
+  const handleUpdateClick = (item) => {
+    updateCartItemQuantity(item.id, newQuantity);
+    setEditingItem(null); // reset after update
+  };
 
   return (
     <div className={styles.cartWrapper}>
@@ -30,26 +42,52 @@ const Cart = () => {
                 <label htmlFor="gift_checkbox"> This will be a gift</label>
               </span>
               <div className={styles.actions}>
-                <select value={item.quantity} className={styles.select}>
+                <select
+                  value={editingItem === item.id ? newQuantity : item.quantity}
+                  className={styles.select}
+                  onChange={(e) =>
+                    handleQuantityChange(item, Number(e.target.value))
+                  }
+                >
                   {[...Array(20)].map((_, index) => (
                     <option key={index + 1} value={index + 1}>
                       Quantity {index + 1}
                     </option>
                   ))}
                 </select>
-                <Button
-                  text="Delete"
-                  borderRadius="0"
-                  size="medium"
-                  color="none"
-                  textColor="#84bbc1"
-                  style={{
-                    padding: 0,
-                    paddingRight: "16px",
-                    textAlign: "left",
-                    borderRight: "1px solid #ccc",
-                  }}
-                />
+
+                {editingItem === item.id ? (
+                  <Button
+                    text="Update"
+                    borderRadius="0"
+                    size="medium"
+                    color="none"
+                    textColor="#84bbc1"
+                    style={{
+                      padding: 0,
+                      paddingRight: "16px",
+                      textAlign: "left",
+                      borderRight: "1px solid #ccc",
+                    }}
+                    onClick={() => handleUpdateClick(item)}
+                  />
+                ) : (
+                  <Button
+                    text="Delete"
+                    borderRadius="0"
+                    size="medium"
+                    color="none"
+                    textColor="#84bbc1"
+                    style={{
+                      padding: 0,
+                      paddingRight: "16px",
+                      textAlign: "left",
+                      borderRight: "1px solid #ccc",
+                    }}
+                    onClick={() => removeFromCart(item.id)}
+                  />
+                )}
+
                 <Button
                   text="Save for later"
                   borderRadius="0"
@@ -92,7 +130,7 @@ const Cart = () => {
             </li>
           ))}
         </ul>
-        <div className={styles.totalPrice}>Totla price</div>
+        <div className={styles.totalPrice}>Total price</div>
       </div>
       <div className={styles.checkout}>
         <span>Subtotal (2 item):</span>

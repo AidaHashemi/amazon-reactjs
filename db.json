@@ -179,29 +179,6 @@
   ],
   "cart": [
     {
-      "id": "33",
-      "url": "/src/assets/images/iwc.jpg",
-      "title": "Acer",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
-      },
-      "price": "$ 1000",
-      "discount": "7 %",
-      "quantity": 1
-    },
-    {
       "id": "55",
       "url": "/src/assets/images/osmo-packet.jpg",
       "title": "Acer",
@@ -222,7 +199,30 @@
       },
       "price": "$ 1000",
       "discount": "7 %",
-      "quantity": "14"
+      "quantity": 20
+    },
+    {
+      "id": "44",
+      "url": "/src/assets/images/mavic3.jpg",
+      "title": "Acer",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "rate": 4.3,
+      "about": [
+        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
+        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
+        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
+        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
+        "Keyboard backlight not present on this model"
+      ],
+      "model": {
+        "brand": "Acer",
+        "modelName": "watch",
+        "ramMemorySize": "8 GB",
+        "cpuModel": "Ryzen 3"
+      },
+      "price": "$ 1000",
+      "discount": "7 %",
+      "quantity": "19"
     }
   ]
 }

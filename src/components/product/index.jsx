@@ -13,23 +13,25 @@ const Product = () => {
   const [selectedNumber, setSelectedNumber] = useState(1);
   const { id } = useParams();
   const { cards, loading } = useContext(CardContext);
-  const { addToCart } = useContext(CartContext);
+  const { cart, addToCart, removeFromCart } = useContext(CartContext);
+
+  const card = cards.find((card) => card.id === id);
+  const isInCart = cart.some((item) => item.id === id);
 
   const handleChange = (event) => {
     setSelectedNumber(event.target.value);
   };
 
-  const handleAddToCart = () => {
-    console.log("heey");
-    const card = cards.find((card) => card.id === id);
-    if (card) {
+  const handleCartAction = () => {
+    if (isInCart) {
+      removeFromCart(id);
+    } else {
       addToCart(card, selectedNumber);
     }
   };
 
   if (loading) return <div>Loading...</div>;
 
-  const card = cards.find((card) => card.id === id);
   if (!card) {
     return <div>Product not found</div>;
   }
@@ -70,24 +72,26 @@ const Product = () => {
           className={styles.form}
           onSubmit={(e) => {
             e.preventDefault();
-            handleAddToCart();
+            handleCartAction();
           }}
         >
-          <select
-            id="number-select"
-            value={selectedNumber}
-            onChange={handleChange}
-            className={styles.select}
-          >
-            {[...Array(20)].map((_, index) => (
-              <option key={index + 1} value={index + 1}>
-                Quantity {index + 1}
-              </option>
-            ))}
-          </select>
+          {!isInCart && (
+            <select
+              id="number-select"
+              value={selectedNumber}
+              onChange={handleChange}
+              className={styles.select}
+            >
+              {[...Array(20)].map((_, index) => (
+                <option key={index + 1} value={index + 1}>
+                  Quantity {index + 1}
+                </option>
+              ))}
+            </select>
+          )}
           <Button
-            text="Add to Cart"
-            color="warning"
+            text={isInCart ? "Remove from Cart" : "Add to Cart"}
+            color={isInCart ? "danger" : "warning"}
             size="medium"
             type="submit"
             textColor="#333"
