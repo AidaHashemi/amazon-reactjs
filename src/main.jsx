@@ -4,11 +4,14 @@ import App from "./App.jsx";
 import "./index.css";
 
 import { CardProvider } from "./context/CardContext.jsx";
+import { CartProvider } from "./context/CartContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <CardProvider>
-      <App />
+      <CartProvider>
+        <App />
+      </CartProvider>
     </CardProvider>
   </StrictMode>
 );

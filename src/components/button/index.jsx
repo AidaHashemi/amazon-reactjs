@@ -5,6 +5,7 @@ const Button = ({
   text = "Button",
   borderRadius = "8px",
   onClick,
+  width = "auto",
   style = {},
   disabled = false,
   type = "button",
@@ -32,6 +33,8 @@ const Button = ({
         return { backgroundColor: "#dc3545" };
       case "warning":
         return { backgroundColor: "#ffc107" };
+      case "none":
+        return { backgroundColor: "transparent" };
       case "primary":
       default:
         return { backgroundColor: "#007bff" };
@@ -49,6 +52,7 @@ const Button = ({
         color: textColor,
         borderRadius: borderRadius,
         border: "none",
+        width: width,
         cursor: disabled ? "not-allowed" : "pointer",
         ...style,
       }}

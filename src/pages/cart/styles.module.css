@@ -1,0 +1,57 @@
+.cartWrapper {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-color: gainsboro;
+  gap: 16px;
+  padding: 20px 10px;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 30px;
+  width: 80%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cartList li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+.cartList li:first-child {
+  border-top: 1px solid #ccc;
+  padding-top: 30px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.totalPrice {
+  font-size: 18px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
