@@ -1,0 +1,115 @@
+.sidebarMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: #fff;
+  color: #333;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebarMenu.open {
+  transform: translateX(0);
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.sidebarContent header {
+  position: relative;
+  display: flex;
+  justify-content: start;
+  /* align-items: center;    */
+  gap: 8px;
+  background-color: #232f3f;
+  padding: 16px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.digitalContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 16px 32px;
+}
+
+.digitalContent h3 {
+  margin-bottom: 32px;
+}
+
+.digitalContent ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.digitalContent ul li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.digitalContent ul li img {
+  width: 20px;
+}
+
+.digitalContent ul li p {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.amazonMusic {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  color: #333;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.amazonMusic p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #ccc;
+}
+
+.amazonMusic h3 {
+  margin: 10px 0;
+}
+
+.amazonMusic ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.amazonMusic ul li {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.digitalContent div.hasIcon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

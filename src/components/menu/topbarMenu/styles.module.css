@@ -1,15 +1,15 @@
 .topbarMenu {
   height: 40px;
   background-color: #222f3f;
-  padding: 0 32px;
+  padding: 0 16px;
 }
 
-.topbarMenu ul {
+/* .topbarMenu ul {
   display: flex;
   align-items: center;
   height: 100%;
   gap: 16px;
-}
+} */
 
 .topbarMenu ul li {
   color: #fff;
@@ -19,4 +19,11 @@
   cursor: pointer;
   font-weight: normal;
   font-size: 15px;
+}
+
+.topbarMenu ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 16px;
 }
