@@ -1,0 +1,51 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: rgb(0, 113, 113);
+  font-size: 14px;
+}
+
+.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.dropdown ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.curr {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+
+.usd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flagSec {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.flagSec p {
+  text-align: center;
+}
+
+.flagSec img {
+  width: 40px;
+}
+
+.lastAncher {
+  margin: 0 auto;
+}
