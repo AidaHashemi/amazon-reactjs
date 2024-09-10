@@ -1,3 +1,15 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  position: absolute;
+  padding: 48px 0;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 .cardLink {
   text-decoration: none;
   color: #333;
@@ -7,12 +19,18 @@
   grid-template-columns: repeat(5, 230px);
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  /* position: absolute;
-  top: 70%;
-  z-index: 999;
-  background-color: #ffffff;
-  width: 100%;
-  padding: 48px 0; */
-  padding: 48px 0;
+  gap: 8px;
+}
+/* CHANGE-LATER  WIDTH */
+.parag {
+  width: 1180px;
+  background-color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.parag a {
+  text-decoration: none;
+  color: rgb(0, 113, 113);
 }

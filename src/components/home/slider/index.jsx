@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Importing React Icons
+
 import img1 from "../../../assets/images/1.jpg";
 import img2 from "../../../assets/images/2.jpg";
 import img3 from "../../../assets/images/3.jpg";
@@ -26,8 +27,8 @@ const Slider = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 8000); // Change slide every 5 seconds
-    return () => clearInterval(interval); // Cleanup the interval on component unmount
+    const interval = setInterval(nextSlide, 8000);
+    return () => clearInterval(interval);
   }, []);
 
   return (

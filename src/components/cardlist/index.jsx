@@ -10,23 +10,30 @@ const CardList = () => {
   if (loading) return <div>Loading...</div>;
 
   return (
-    <div className={styles.cardList}>
-      {cards.map((card) => (
-        <Link
-          to={`/product/${card.id}`}
-          className={styles.cardLink}
-          key={card.id} // Move the key prop here
-        >
-          <Card
-            title={card.title}
-            description={card.description}
-            image={card.url}
-            price={card.price}
-            discount={card.discount}
-            rate={card.rate}
-          />
-        </Link>
-      ))}
+    <div className={styles.wrapper}>
+      <div className={styles.parag}>
+        You are on amazon.com. You can also shop on Amazon Germany for millions
+        of products with fast local delivery. Click here to go to{" "}
+        <a href="#">amazon.de</a>
+      </div>
+      <div className={styles.cardList}>
+        {cards.map((card) => (
+          <Link
+            to={`/product/${card.id}`}
+            className={styles.cardLink}
+            key={card.id} // Move the key prop here
+          >
+            <Card
+              title={card.title}
+              description={card.description}
+              image={card.url}
+              price={card.price}
+              discount={card.discount}
+              rate={card.rate}
+            />
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };

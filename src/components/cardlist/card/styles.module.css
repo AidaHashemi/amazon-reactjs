@@ -6,6 +6,7 @@
   align-items: center;
   gap: 16px;
   padding: 16px 8px;
+  background-color: #fff;
 }
 
 .card img {
