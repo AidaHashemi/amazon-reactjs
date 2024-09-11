@@ -1,14 +1,17 @@
 .wrapper {
   width: 100%;
+  /* min-height: 200vh; */
   display: flex;
   flex-direction: column;
   gap: 32px;
   align-items: center;
-  position: absolute;
+  position: relative;
   padding: 48px 0;
-  top: 40%;
+  top: -300px;
   left: 50%;
   transform: translate(-50%, 0);
+  /* background-color: red; */
+  /* background-color: transparent; */
 }
 .cardLink {
   text-decoration: none;

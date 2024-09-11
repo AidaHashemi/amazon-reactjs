@@ -4,7 +4,7 @@ import { IoMdSearch, IoMdArrowDropdown } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { BsCart2 } from "react-icons/bs";
 
-import DropdownMenu from "../../menu/dropdownMenu";
+import DropdownMenu from "./dropdownMenu";
 import { CartContext } from "../../../context/CartContext";
 import LangDropDown from "../../langDropDown";
 import AccountDropDown from "../../accountDropDown";
