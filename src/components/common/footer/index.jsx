@@ -1,8 +1,58 @@
+import React from "react";
 import Logo from "../logo";
 import { IoIosGlobe } from "react-icons/io";
-
 import usFlag from "../../../assets/svg/usa.svg";
 import styles from "./styles.module.css";
+
+const footerSections = [
+  {
+    title: "Get to Know Us",
+    items: [
+      "Careers",
+      "Blog",
+      "About Amazon",
+      "Investor Relations",
+      "Amazon Devices",
+      "Amazon Science",
+    ],
+  },
+  {
+    title: "Make Money with Us",
+    items: [
+      "Sell products on Amazon",
+      "Sell on Amazon Business",
+      "Sell apps on Amazon",
+      "Become an Affiliate",
+      "Advertise Your Products",
+      "Self-Publish with Us",
+      "Host an Amazon Hubs",
+      "See More Make Money with Us",
+    ],
+  },
+  {
+    title: "Amazon Payment Products",
+    items: [
+      "Amazon Business Card",
+      "Shop with Points",
+      "Reload Your Balance",
+      "Amazon Currency Converter",
+    ],
+  },
+  {
+    title: "Let Us Help You",
+    items: [
+      "Amazon and COVID-19",
+      "Your Account",
+      "Your Orders",
+      "Shipping Rates & Policies",
+      "Returns & Replacements",
+      "Manage Your Content and Devices",
+      "Amazon Assistant",
+      "Help",
+    ],
+  },
+];
+
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -10,69 +60,28 @@ const Footer = () => {
         <p>Back to top</p>
       </a>
       <div className={styles.content}>
-        <div>
-          <h3>Get to Know Us</h3>
-          <ul>
-            <li>Careers</li>
-            <li>Blog</li>
-            <li>About Amazon</li>
-            <li>Investor Relations</li>
-            <li>Amazon Devices</li>
-            <li>Amazon Science</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Make Money with Us</h3>
-          <ul>
-            <li>Sell products on Amazon </li>
-            <li>Sell on Amazon Business </li>
-            <li>Sell apps on Amazon </li>
-            <li>Become an Affiliate </li>
-            <li>Advertise Your Products </li>
-            <li>Self-Publish with Us </li>
-            <li>Host an Amazon Hubs </li>
-            <li>See More Make Money with Us </li>
-          </ul>
-        </div>
-        <div>
-          <h3>Amazon Payment Products</h3>
-          <ul>
-            <li>Amazon Business Card</li>
-            <li>Shop with Points</li>
-            <li>Reload Your Balance</li>
-            <li>Amazon Currency Converter</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Let Us Help You</h3>
-          <ul>
-            <li>Amazon and COVID-19</li>
-            <li>Your Account</li>
-            <li>Your Orders</li>
-            <li>
-              <p>Shipping Rates &amp;</p>Policies
-            </li>
-            <li>
-              <p>Returns &amp;</p>Replacements
-            </li>
-            <li>Manage Your Content and Devices</li>
-            <li>Amazon Assistant</li>
-            <li>Help</li>
-          </ul>
-        </div>
+        {footerSections.map((section, index) => (
+          <div key={index}>
+            <h3>{section.title}</h3>
+            <ul>
+              {section.items.map((item, idx) => (
+                <li key={idx}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
       <div className={styles.lastRow}>
         <Logo />
-
         <div>
-          <IoIosGlobe />
+          <IoIosGlobe aria-label="Change language" />
           <p>English</p>
         </div>
         <div>
-          <span>$</span> USD - U.s Dollor
+          <span>$</span> USD - U.S Dollar
         </div>
         <div>
-          <img src={usFlag} alt="usFlag" />
+          <img src={usFlag} alt="US Flag" />
           <p>United States</p>
         </div>
       </div>
