@@ -2,227 +2,418 @@
   "cards": [
     {
       "id": "11",
-      "url": "/src/assets/images/beats.jpg",
-      "title": "Acer",
+      "url": "/src/assets/images/appleWatch9.jpg",
+      "title": "Apple Watch Series 9",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "rate": 4.8,
+      "numOfVotes": "1256 ratings",
+      "numOfSales": "10k+ bought in the past month",
+      "listPrice": "$449.00",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$1000",
-      "discount": "7%"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "Watch Series 9",
+        "ScreenSize": "1.9 Inches",
+        "color": "Silver",
+        "HardDiskSize": "N/A",
+        "cpuModel": "S9 SiP",
+        "ramMemorySize": "1 GB",
+        "operatingSystem": "watchOS 10",
+        "specialFeature": " Health Monitoring, GPS, Water-resistant",
+        "GraphicsCard": "Integrated"
+      },
+      "boxIsIncluded": "Apple Watch Series 9, Magnetic Charging Cable, Documentation",
+      "about": [
+        "Elegant Design: A refined look that fits any lifestyle with customizable watch faces.",
+        "Health Monitoring: Equipped with heart rate notifications, ECG, and blood oxygen monitoring.",
+        "Performance: Powered by the S9 SiP for lightning-fast performance and efficiency.",
+        "Battery Life: Lasts up to 18 hours on a single charge, supporting all-day use.",
+        "Seamless Connectivity: Enjoy cellular models for calls and messages without your phone."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "Watch Series 9",
+        "ramMemorySize": "1 GB",
+        "cpuModel": "S9 SiP"
+      },
+      "price": "$399",
+      "discount": "10%",
+      "productIcon": "apple"
     },
     {
-      "id": "22",
-      "url": "/src/assets/images/go-pro.jpg",
-      "title": "Acer",
+      "id": "12",
+      "url": "/src/assets/images/iphone13pro.jpg",
+      "title": "iPhone 13 Pro",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "rate": 4.9,
+      "numOfVotes": "1500 ratings",
+      "numOfSales": "15k+ bought in the past month",
+      "listPrice": "$999.00",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "iPhone 13 Pro",
+        "ScreenSize": "6.1 Inches",
+        "color": "Graphite",
+        "HardDiskSize": "128 GB, 256 GB, 512 GB, 1 TB",
+        "cpuModel": "A15 Bionic",
+        "ramMemorySize": "6 GB",
+        "operatingSystem": "iOS 15",
+        "specialFeature": "Triple camera system, Face ID, 5G capable",
+        "GraphicsCard": "Integrated"
+      },
+      "boxIsIncluded": "iPhone 13 Pro, USB-C to Lightning Cable, Documentation",
+      "about": [
+        "Stunning Display: Super Retina XDR display for an immersive viewing experience.",
+        "Camera System: Professional-grade triple camera system for superior photography.",
+        "Performance: A15 Bionic chip for lightning-fast performance.",
+        "Battery Life: Up to 22 hours of talk time and excellent video playback.",
+        "5G Capability: Experience super-fast downloads and high-quality streaming."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "iPhone 13 Pro",
+        "ramMemorySize": "6 GB",
+        "cpuModel": "A15 Bionic"
+      },
+      "price": "$899",
+      "discount": "10%",
+      "productIcon": "apple"
     },
     {
-      "id": "33",
-      "url": "/src/assets/images/iwc.jpg",
-      "title": "Acer",
+      "id": "13",
+      "url": "/src/assets/images/iphone14.jpg",
+      "title": "iPhone 14",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "rate": 4.8,
+      "numOfVotes": "1200 ratings",
+      "numOfSales": "12k+ bought in the past month",
+      "listPrice": "$799.00",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "iPhone 14",
+        "ScreenSize": "6.1 Inches",
+        "color": "Midnight",
+        "HardDiskSize": "128 GB, 256 GB, 512 GB",
+        "cpuModel": "A15 Bionic",
+        "ramMemorySize": "6 GB",
+        "operatingSystem": "iOS 16",
+        "specialFeature": "Dual-camera system, Super Retina XDR, Ceramic Shield",
+        "GraphicsCard": "Integrated"
+      },
+      "boxIsIncluded": "iPhone 14, USB-C to Lightning Cable, Documentation",
+      "about": [
+        "Super Retina XDR Display: 6.1-inch display with vibrant colors and an impressive refresh rate.",
+        "Improved Camera System: Capture stunning photos and videos with enhanced low-light performance.",
+        "Performance: Powered by A15 Bionic chip for incredible speed and efficiency.",
+        "Battery Life: All-day battery life with up to 20 hours of talk time.",
+        "5G Ready: Enjoy high-speed downloads and improved connectivity."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "iPhone 14",
+        "ramMemorySize": "6 GB",
+        "cpuModel": "A15 Bionic"
+      },
+      "price": "$719",
+      "discount": "10%",
+      "productIcon": "apple"
     },
     {
-      "id": "44",
-      "url": "/src/assets/images/mavic3.jpg",
-      "title": "Acer",
+      "id": "14",
+      "url": "/src/assets/images/imac.jpg",
+      "title": "Apple 24-inch iMac",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "rate": 4.7,
+      "numOfVotes": "980 ratings",
+      "numOfSales": "8k+ bought in the past month",
+      "listPrice": "$1,499.00",
+      "shipping": {
+        "cost": "$19.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "24-inch iMac",
+        "ScreenSize": "24 Inches",
+        "color": "Blue",
+        "HardDiskSize": "256 GB SSD, 512 GB SSD, 1 TB SSD",
+        "cpuModel": "Apple M3",
+        "ramMemorySize": "8 GB, 16 GB",
+        "operatingSystem": "macOS Monterey",
+        "specialFeature": "Retina 4.5K display, 8-core CPU, 10-core GPU",
+        "GraphicsCard": "Integrated"
+      },
+      "boxIsIncluded": "24-inch iMac, Magic Keyboard, Magic Mouse, Power Adapter, Documentation",
+      "about": [
+        "Stunning Retina Display: 24-inch 4.5K display for vibrant colors and sharp details.",
+        "Powerful Performance: Powered by the Apple M3 chip for lightning-fast performance.",
+        "Slim Design: Sleek and minimalist design fits beautifully in any workspace.",
+        "Versatile Connectivity: Multiple ports including USB-C and Thunderbolt for all your peripherals.",
+        "High-Quality Audio and Video: Enhanced speakers, microphone, and FaceTime HD camera."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "24-inch iMac",
+        "ramMemorySize": "8 GB, 16 GB",
+        "cpuModel": "Apple M3"
+      },
+      "price": "$1,349",
+      "discount": "10%",
+      "productIcon": "apple"
     },
     {
-      "id": "55",
-      "url": "/src/assets/images/osmo-packet.jpg",
-      "title": "Acer",
+      "id": "15",
+      "url": "/src/assets/images/airpodspro2.jpg",
+      "title": "AirPods Pro 2",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "rate": 4.9,
+      "numOfVotes": "1500 ratings",
+      "numOfSales": "20k+ bought in the past month",
+      "listPrice": "$249.00",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "AirPods Pro 2",
+        "color": "White",
+        "batteryLife": "Up to 30 hours with charging case",
+        "connectivity": "Bluetooth 5.3",
+        "specialFeature": "Active Noise Cancellation, Transparency Mode, Spatial Audio",
+        "soundTechnology": "Adaptive EQ"
+      },
+      "boxIsIncluded": "AirPods Pro 2, Wireless Charging Case, Silicone Ear Tips (small, medium, large), Lightning to USB-C Cable, Documentation",
+      "about": [
+        "Active Noise Cancellation: Blocks out external noise for an immersive listening experience.",
+        "Transparency Mode: Listen to the world around you while still enjoying your music.",
+        "Spatial Audio: Delivers an immersive surround sound experience for movies and music.",
+        "Long Battery Life: Enjoy up to 30 hours of listening time with the charging case.",
+        "Enhanced Comfort: Comes with customizable silicone ear tips for a perfect fit."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "AirPods Pro 2",
+        "batteryLife": "Up to 30 hours with charging case"
+      },
+      "price": "$229",
+      "discount": "10%",
+      "productIcon": "apple"
     },
     {
-      "id": "66",
-      "url": "/src/assets/images/patek-philippe.jpg",
-      "title": "Acer",
+      "id": "16",
+      "url": "/src/assets/images/magickeyboard.jpg",
+      "title": "Apple Magic Keyboard",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "rate": 4.8,
+      "numOfVotes": "700 ratings",
+      "numOfSales": "5k+ bought in the past month",
+      "listPrice": "$299.00",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "Magic Keyboard",
+        "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)",
+        "color": "White",
+        "keyboardLayout": "QWERTY",
+        "specialFeature": "Trackpad support, Backlit keys, USB-C port",
+        "batteryLife": "Up to 1 month on a full charge"
+      },
+      "boxIsIncluded": "Magic Keyboard, Documentation",
+      "about": [
+        "Integrated Trackpad: Navigate your iPad with precision using the built-in trackpad.",
+        "Float Design: The Magic Keyboard's unique hinge allows you to adjust the viewing angle.",
+        "Backlit Keys: Illuminate your keys for easy typing in low-light conditions.",
+        "USB-C Port: Convenient charging through the USB-C port on your iPad.",
+        "Optimized for iPadOS: Seamlessly integrated with iPadOS for enhanced productivity."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "Magic Keyboard",
+        "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)"
+      },
+      "price": "$269",
+      "discount": "10%",
+      "productIcon": "apple"
     },
     {
-      "id": "77",
-      "url": "/src/assets/images/tag-heuer-carrera.jpg",
-      "title": "Acer",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "id": "17",
+      "url": "/src/assets/images/bluetoothkeyboard.jpg",
+      "title": "iPad Bluetooth Keyboard",
+      "description": "Transform your iPad into a powerful workstation with this versatile Bluetooth keyboard case that includes a mouse.",
+      "rate": 4.6,
+      "numOfVotes": "400 ratings",
+      "numOfSales": "3k+ bought in the past month",
+      "listPrice": "$89.99",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Generic",
+        "modelName": "Bluetooth Keyboard Case",
+        "compatibleWith": "Various iPad models",
+        "color": "Black",
+        "keyboardLayout": "QWERTY",
+        "specialFeature": "Backlit keyboard, Touchpad mouse, Protective case",
+        "batteryLife": "Up to 200 hours on a full charge"
+      },
+      "boxIsIncluded": "Bluetooth Keyboard Case, Mouse, USB-C Charging Cable, Documentation",
+      "about": [
+        "Backlit Keys: Type comfortably in low-light environments with adjustable backlighting.",
+        "Touchpad Mouse: Integrated touchpad for easy navigation and gesture controls.",
+        "Protective Design: Durable case protects your iPad from scratches and drops.",
+        "Long Battery Life: Enjoy hours of uninterrupted use with up to 200 hours of battery life.",
+        "Wireless Connectivity: Seamlessly connects to your iPad via Bluetooth."
+      ],
+      "note": "Please ensure compatibility with your specific iPad model before purchasing.",
+      "model": {
+        "brand": "Generic",
+        "modelName": "Bluetooth Keyboard Case",
+        "compatibleWith": "Various iPad models"
+      },
+      "price": "$79.99",
+      "discount": "11%",
+      "productIcon": "generic"
     },
     {
-      "id": "88",
-      "url": "/src/assets/images/beats.jpg",
-      "title": "Acer",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
+      "id": "18",
+      "url": "/src/assets/images/iphone15plus.jpg",
+      "title": "Apple iPhone 15+",
+      "description": "Experience the power and elegance of the iPhone 15 Plus with its stunning design, advanced camera system, and exceptional performance.",
+      "rate": 4.9,
+      "numOfVotes": "1200 ratings",
+      "numOfSales": "15k+ bought in the past month",
+      "listPrice": "$999.00",
+      "shipping": {
+        "cost": "$19.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
       },
-      "price": "$ 1000",
-      "discount": "7 %"
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "iPhone 15 Plus",
+        "storage": "128 GB",
+        "color": "Preto",
+        "display": "6.7 inches Super Retina XDR",
+        "camera": "Dual 48MP + 12MP rear camera system",
+        "cpuModel": "A16 Bionic chip",
+        "batteryLife": "All-day battery life",
+        "operatingSystem": "iOS 17",
+        "specialFeature": "5G capable, Ceramic Shield, Face ID"
+      },
+      "boxIsIncluded": "iPhone 15 Plus, USB-C to Lightning Cable, Documentation",
+      "about": [
+        "Stunning Display: 6.7-inch Super Retina XDR display for vibrant visuals.",
+        "Powerful Performance: Equipped with the A16 Bionic chip for lightning-fast processing.",
+        "Advanced Camera System: Capture incredible photos and videos with a versatile dual-camera system.",
+        "Durable Design: Ceramic Shield front cover offers better drop performance.",
+        "5G Technology: Experience fast connectivity and download speeds."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally, and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "iPhone 15 Plus",
+        "storage": "128 GB"
+      },
+      "price": "$949",
+      "discount": "5%",
+      "productIcon": "apple"
+    },
+    {
+      "id": "19",
+      "url": "/src/assets/images/applepencil.jpg",
+      "title": "Apple Pencil",
+      "description": "The Apple Pencil delivers precision, sensitivity, and versatility, making it the perfect tool for creating and taking notes on your iPad.",
+      "rate": 4.8,
+      "numOfVotes": "900 ratings",
+      "numOfSales": "10k+ bought in the past month",
+      "listPrice": "$129.00",
+      "shipping": {
+        "cost": "$9.99",
+        "address": "Germany",
+        "details": [
+          "Available at a lower price from other sellers that may not offer free Prime shipping.",
+          "Extra Savings: Promotions applicable with this purchase."
+        ]
+      },
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "Apple Pencil (2nd Generation)",
+        "compatibleWith": "iPad Pro 11-inch, iPad Pro 12.9-inch (3rd generation and later)",
+        "color": "White",
+        "specialFeature": "Pressure and tilt sensitivity, Double-tap functionality",
+        "batteryLife": "Up to 12 hours on a full charge"
+      },
+      "boxIsIncluded": "Apple Pencil (2nd Generation), Documentation",
+      "about": [
+        "Precision and Control: Offers pixel-perfect precision for artistic and note-taking tasks.",
+        "Double-Tap Functionality: Easily switch between tools and features with a simple double-tap.",
+        "Magnetic Attach: Securely attaches to the side of your iPad for easy storage and charging.",
+        "Pressure and Tilt Sensitivity: Automatically adjusts line thickness based on the pressure and angle of the pencil.",
+        "Long Battery Life: Enjoy up to 12 hours of use on a single charge."
+      ],
+      "note": "Please ensure compatibility with your specific iPad model before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "Apple Pencil (2nd Generation)",
+        "compatibleWith": "iPad Pro 11-inch, iPad Pro 12.9-inch (3rd generation and later)"
+      },
+      "price": "$119",
+      "discount": "8%",
+      "productIcon": "apple"
     }
   ],
-  "cart": [
-    {
-      "id": "55",
-      "url": "/src/assets/images/osmo-packet.jpg",
-      "title": "Acer",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
-      },
-      "price": "$ 1000",
-      "discount": "7 %",
-      "quantity": 20
-    },
-    {
-      "id": "44",
-      "url": "/src/assets/images/mavic3.jpg",
-      "title": "Acer",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.3,
-      "about": [
-        "Purposeful Design: Travel with ease and look great doing it with the Aspire's 3 thin, light design.",
-        "Ready-to-Go Performance: The Aspire 3 is ready-to-go with the latest AMD Ryzen 3 7320U Processor with Radeon Graphics—ideal for the entire family, with performance and productivity at the core.",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Internal Specifications: 8GB LPDDR5 Onboard Memory; 128GB NVMe solid-state drive storage to store your files and media",
-        "Keyboard backlight not present on this model"
-      ],
-      "model": {
-        "brand": "Acer",
-        "modelName": "watch",
-        "ramMemorySize": "8 GB",
-        "cpuModel": "Ryzen 3"
-      },
-      "price": "$ 1000",
-      "discount": "7 %",
-      "quantity": "19"
-    }
-  ]
+  "cart": []
 }
