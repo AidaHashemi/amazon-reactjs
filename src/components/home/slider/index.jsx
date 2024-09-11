@@ -33,7 +33,9 @@ const Slider = () => {
 
   return (
     <div className={styles.slider}>
-      <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+      <div className={styles.imgBox}>
+        <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+      </div>
       <button onClick={prevSlide} className={styles.prev}>
         <FaChevronLeft size={40} />
       </button>

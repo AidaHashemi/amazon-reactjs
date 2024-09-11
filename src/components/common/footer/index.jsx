@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../logo";
 import { IoIosGlobe } from "react-icons/io";
 import usFlag from "../../../assets/svg/usa.svg";
