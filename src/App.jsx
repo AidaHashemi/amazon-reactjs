@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Header from "./components/common/header";
 
-import TopbarMenu from "./components/menu/topbarMenu";
 import Product from "./components/product";
 import Cart from "./pages/cart";
 import NotFound from "./pages/notFound";
@@ -14,7 +13,6 @@ const App = () => {
     <div>
       <Router>
         <Header />
-        <TopbarMenu />
         {/* <main>
         <Home />
       </main> */}

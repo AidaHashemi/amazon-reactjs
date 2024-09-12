@@ -5,19 +5,25 @@ import SearchBar from "./searchBar";
 import HeadMenu from "./headMenu";
 
 import styles from "./styles.module.css";
+import NavigationMenu from "../../menu/navigationMenu";
 
 const Header = () => {
   return (
-    <header className={styles.header}>
-      <Logo />
-      <div className={styles.deliveryInfo}>
-        Deliver to
-        <span className={styles.location}>
-          <IoLocationOutline /> Germany
-        </span>
-      </div>
-      <SearchBar />
-      <HeadMenu />
+    <header>
+      <nav>
+        <div className={styles.topSec}>
+          <Logo />
+          <div className={styles.deliveryInfo}>
+            Deliver to
+            <span className={styles.location}>
+              <IoLocationOutline /> Germany
+            </span>
+          </div>
+          <SearchBar />
+          <HeadMenu />
+        </div>
+        <NavigationMenu />
+      </nav>
     </header>
   );
 };

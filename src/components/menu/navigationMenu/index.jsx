@@ -4,7 +4,7 @@ import SidebarMenu from "../sidebarMenu";
 import styles from "./styles.module.css";
 
 // TODO add this part to header
-const TopbarMenu = () => {
+const NavigationMenu = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -35,4 +35,4 @@ const TopbarMenu = () => {
   );
 };
 
-export default TopbarMenu;
+export default NavigationMenu;
