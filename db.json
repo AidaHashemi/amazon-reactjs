@@ -10,12 +10,8 @@
       "numOfSales": "10k+ bought in the past month",
       "listPrice": "$449.00",
       "shipping": {
-        "cost": "$9.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -58,7 +54,7 @@
       "numOfSales": "15k+ bought in the past month",
       "listPrice": "$999.00",
       "shipping": {
-        "cost": "$9.99",
+        "cost": "19.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -92,7 +88,7 @@
         "ramMemorySize": "6 GB",
         "cpuModel": "A15 Bionic"
       },
-      "price": "$899",
+      "price": "899",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -106,7 +102,7 @@
       "numOfSales": "12k+ bought in the past month",
       "listPrice": "$799.00",
       "shipping": {
-        "cost": "$9.99",
+        "cost": "29.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -140,7 +136,7 @@
         "ramMemorySize": "6 GB",
         "cpuModel": "A15 Bionic"
       },
-      "price": "$719",
+      "price": "719",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -154,7 +150,7 @@
       "numOfSales": "8k+ bought in the past month",
       "listPrice": "$1,499.00",
       "shipping": {
-        "cost": "$19.99",
+        "cost": "39.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -188,7 +184,7 @@
         "ramMemorySize": "8 GB, 16 GB",
         "cpuModel": "Apple M3"
       },
-      "price": "$1,349",
+      "price": "1,349",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -202,7 +198,7 @@
       "numOfSales": "20k+ bought in the past month",
       "listPrice": "$249.00",
       "shipping": {
-        "cost": "$9.99",
+        "cost": "48",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -232,7 +228,7 @@
         "modelName": "AirPods Pro 2",
         "batteryLife": "Up to 30 hours with charging case"
       },
-      "price": "$229",
+      "price": "229",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -246,7 +242,7 @@
       "numOfSales": "5k+ bought in the past month",
       "listPrice": "$299.00",
       "shipping": {
-        "cost": "$9.99",
+        "cost": "19.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -276,7 +272,7 @@
         "modelName": "Magic Keyboard",
         "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)"
       },
-      "price": "$269",
+      "price": "269",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -290,7 +286,7 @@
       "numOfSales": "3k+ bought in the past month",
       "listPrice": "$89.99",
       "shipping": {
-        "cost": "$9.99",
+        "cost": "9.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -320,7 +316,7 @@
         "modelName": "Bluetooth Keyboard Case",
         "compatibleWith": "Various iPad models"
       },
-      "price": "$79.99",
+      "price": "79.99",
       "discount": "11%",
       "productIcon": "generic"
     },
@@ -334,7 +330,7 @@
       "numOfSales": "15k+ bought in the past month",
       "listPrice": "$999.00",
       "shipping": {
-        "cost": "$19.99",
+        "cost": "19.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -367,7 +363,7 @@
         "modelName": "iPhone 15 Plus",
         "storage": "128 GB"
       },
-      "price": "$949",
+      "price": "949",
       "discount": "5%",
       "productIcon": "apple"
     },
@@ -381,7 +377,7 @@
       "numOfSales": "10k+ bought in the past month",
       "listPrice": "$129.00",
       "shipping": {
-        "cost": "$9.99",
+        "cost": "29.99",
         "address": "Germany",
         "details": [
           "Available at a lower price from other sellers that may not offer free Prime shipping.",
@@ -410,7 +406,7 @@
         "modelName": "Apple Pencil (2nd Generation)",
         "compatibleWith": "iPad Pro 11-inch, iPad Pro 12.9-inch (3rd generation and later)"
       },
-      "price": "$119",
+      "price": "119",
       "discount": "8%",
       "productIcon": "apple"
     }

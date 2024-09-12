@@ -15,7 +15,7 @@ const Card = ({ title, description, image, price, discount, rate }) => {
       <h2 className={styles.title}>{title}</h2>
       <div className={styles.cardInfo}>
         <div className={styles.price}>
-          <span>${DiscountedAmount(price, discount).toFixed(2)}</span>
+          <span>${DiscountedAmount(price, discount)}</span>
           <span className={styles.originalPrice}>{price}</span>
         </div>
         <p>{truncatedDescription}</p>

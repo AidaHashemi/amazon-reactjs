@@ -3,6 +3,9 @@ export default function DiscountedAmount(price, discount) {
   const numericDiscount = parseFloat(discount.replace(/[^0-9.-]+/g, ""));
 
   // Calculate discounted price
-  const discountAmount = numericPrice - (numericDiscount / 100) * numericPrice;
+  const discountAmount = (
+    numericPrice -
+    (numericDiscount / 100) * numericPrice
+  ).toFixed(2);
   return discountAmount;
 }
