@@ -1,0 +1,46 @@
+.dropdownMenu {
+  width: 35%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1.5fr;
+  align-items: center;
+  justify-content: center;
+}
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.lang img {
+  width: 25px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.item span {
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cartItem span:first-child {
+  font-size: 30px;
+}
+
+.cartItem span:last-child {
+  color: #fa9145;
+}

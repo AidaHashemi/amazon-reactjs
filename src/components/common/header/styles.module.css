@@ -10,7 +10,7 @@
   gap: 16px;
 }
 
-.item {
+.deliveryInfo {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -18,100 +18,9 @@
   color: #ccc;
 }
 
-.item span {
+.location {
   font-size: 16px;
   color: #fff;
   display: flex;
   align-items: center;
-}
-
-.lang {
-  display: flex;
-  align-items: center;
-}
-.icon {
-  width: 40px;
-  height: 100%;
-  font-size: 24px;
-  color: #111;
-  background-color: #febb77;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.searchBar {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.searchBar input {
-  width: 100%;
-  padding: 13px;
-  padding-left: 60px;
-  color: #333;
-  background-color: #f1f4f9;
-  border: none;
-  outline: none;
-  word-spacing: 1px;
-  letter-spacing: 0.5px;
-}
-
-.searchBar input:focus {
-  outline: 3px solid #eb9848;
-}
-
-.searchBar > span:first-child {
-  width: 50px;
-  height: 100%;
-  font-size: 14px;
-  padding: 0 5px;
-  display: flex;
-  align-items: center;
-  /* justify-content: space-evenly; */
-  justify-content: center;
-  border-right: 1px solid #ccc;
-  background-color: #e7e6e5;
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: #333;
-}
-
-.header .dropdownMenu {
-  width: 35%;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr 1.5fr;
-  align-items: center;
-  justify-content: center;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  text-decoration: none;
-  color: inherit;
-}
-
-.link span {
-  font-size: 30px;
-}
-
-.link p {
-  color: #fa9145;
-}
-
-.filter {
-  width: 100%;
-  display: flex;
-  gap: 5px;
-  align-items: center;
-  margin-inline: auto;
-  color: #333;
 }

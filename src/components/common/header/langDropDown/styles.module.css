@@ -16,7 +16,7 @@
   flex-direction: column;
   gap: 16px;
 }
-.dropdown ul li {
+.dropdown ul li label {
   display: flex;
   align-items: center;
   gap: 8px;

@@ -9,7 +9,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { IoMdRadioButtonOn } from "react-icons/io";
 import { IoIosArrowDown } from "react-icons/io";
 import { GoNote } from "react-icons/go";
-import DropdownMenu from "../common/header/dropdownMenu";
+import DropdownMenu from "../menu/dropdownMenu";
 import Button from "../button";
 import styles from "./styles.module.css";
 import ShippingFeeDetails from "./shippingFeeDetails";
