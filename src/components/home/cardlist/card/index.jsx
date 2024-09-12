@@ -1,6 +1,7 @@
+import DiscountedAmount from "../../../../functions/DiscountedAmount";
+import StarRating from "../../../../functions/StarRating";
+
 import styles from "./styles.module.css";
-import StarRating from "../../../functions/StarRating";
-import DiscountedAmount from "../../../functions/DiscountedAmount";
 
 const Card = ({
   title,

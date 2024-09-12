@@ -424,6 +424,51 @@
       "discount": "10%",
       "productIcon": "apple",
       "quantity": 1
+    },
+    {
+      "id": "13",
+      "url": "/src/assets/images/iphone14.jpg",
+      "title": "iPhone 14",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "rate": 4.8,
+      "numOfVotes": "1200 ratings",
+      "numOfSales": "12k+ bought in the past month",
+      "listPrice": "$799.00",
+      "shipping": {
+        "cost": "9.99",
+        "address": "Germany"
+      },
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "iPhone 14",
+        "ScreenSize": "6.1 Inches",
+        "color": "Midnight",
+        "HardDiskSize": "128 GB, 256 GB, 512 GB",
+        "cpuModel": "A15 Bionic",
+        "ramMemorySize": "6 GB",
+        "operatingSystem": "iOS 16",
+        "specialFeature": "Dual-camera system, Super Retina XDR, Ceramic Shield",
+        "GraphicsCard": "Integrated"
+      },
+      "boxIsIncluded": "iPhone 14, USB-C to Lightning Cable, Documentation",
+      "about": [
+        "Super Retina XDR Display: 6.1-inch display with vibrant colors and an impressive refresh rate.",
+        "Improved Camera System: Capture stunning photos and videos with enhanced low-light performance.",
+        "Performance: Powered by A15 Bionic chip for incredible speed and efficiency.",
+        "Battery Life: All-day battery life with up to 20 hours of talk time.",
+        "5G Ready: Enjoy high-speed downloads and improved connectivity."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "iPhone 14",
+        "ramMemorySize": "6 GB",
+        "cpuModel": "A15 Bionic"
+      },
+      "price": "$719",
+      "discount": "10%",
+      "productIcon": "apple",
+      "quantity": 5
     }
   ]
 }

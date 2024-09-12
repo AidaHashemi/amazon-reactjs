@@ -1,3 +1,7 @@
+.thirdSec {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
 .specifications {
   display: flex;
   flex-direction: column;

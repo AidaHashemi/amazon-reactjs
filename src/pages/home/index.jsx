@@ -1,6 +1,7 @@
-import Slider from "../../components/home/slider";
 import { CardProvider } from "../../context/CardContext";
-import CardList from "../../components/cardlist";
+
+import Slider from "../../components/home/slider";
+import CardList from "../../components/home/cardlist";
 
 import styles from "./styles.module.css";
 

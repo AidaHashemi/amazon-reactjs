@@ -14,28 +14,30 @@ const Specifications = ({ card }) => {
   };
 
   return (
-    <div className={styles.specifications}>
-      <h3>Specifications</h3>
-      <ul>
-        {keys.slice(0, showAll ? keys.length : 5).map((key) => (
-          <li key={key}>
-            <span>{key}</span> <span> {card.specifications[key]}</span>
-          </li>
-        ))}
-      </ul>
-      <button onClick={toggleShowAll}>
-        {showAll ? (
-          <>
-            <IoIosArrowUp />
-            Show Less
-          </>
-        ) : (
-          <>
-            <IoIosArrowDown />
-            Show More
-          </>
-        )}
-      </button>
+    <div className={styles.thirdSec}>
+      <div className={styles.specifications}>
+        <h3>Specifications</h3>
+        <ul>
+          {keys.slice(0, showAll ? keys.length : 5).map((key) => (
+            <li key={key}>
+              <span>{key}</span> <span> {card.specifications[key]}</span>
+            </li>
+          ))}
+        </ul>
+        <button onClick={toggleShowAll}>
+          {showAll ? (
+            <>
+              <IoIosArrowUp />
+              Show Less
+            </>
+          ) : (
+            <>
+              <IoIosArrowDown />
+              Show More
+            </>
+          )}
+        </button>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,29 @@
+.firstSec {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+.firstSec a {
+  text-decoration: none;
+  color: rgb(0, 113, 113);
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.ratingItem {
+  color: rgb(0, 113, 113);
+  font-size: 14px;
+}
+.ratingItem:nth-of-type(1) {
+  border-right: 1px solid #ccc;
+  padding-right: 32px;
+}

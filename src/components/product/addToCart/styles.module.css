@@ -1,0 +1,49 @@
+.addToCart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 38% !important;
+  height: 550px;
+  padding: 20px 10px;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 8px;
+  font-size: 15px;
+  /* background-color: yellowgreen; */
+}
+
+.addToCart .shipp {
+  line-height: 1.6;
+}
+
+.addToCart .shipp span {
+  color: #777;
+}
+
+.shipp em {
+  font-weight: 500;
+}
+.deliverTo {
+  color: rgb(23, 142, 178);
+  font-size: 14px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+}
+
+.radioIcon {
+  color: rgb(85, 85, 224);
+  position: absolute;
+  right: 20px;
+  font-size: 24px;
+}
+
+.inStock {
+  color: seagreen;
+  font-weight: 500;
+  font-size: 18px;
+}

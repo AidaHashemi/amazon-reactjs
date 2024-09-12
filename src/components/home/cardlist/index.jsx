@@ -1,7 +1,10 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { CardContext } from "../../context/CardContext";
+
+import { CardContext } from "../../../context/CardContext";
+
 import Card from "./Card";
+
 import styles from "./styles.module.css";
 
 const CardList = () => {

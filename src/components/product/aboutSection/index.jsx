@@ -13,28 +13,30 @@ const AboutSection = ({ card }) => {
   };
 
   return (
-    <div className={styles.about}>
-      <h3>About</h3>
-      <ul>
-        {card.about
-          .slice(0, showAll ? card.about.length : 3)
-          .map((item, index) => (
-            <li key={index}>• {item}</li>
-          ))}
-      </ul>
-      <button onClick={toggleShowAll}>
-        {showAll ? (
-          <>
-            <IoIosArrowUp />
-            Show Less
-          </>
-        ) : (
-          <>
-            <IoIosArrowDown />
-            Show More
-          </>
-        )}
-      </button>
+    <div className={styles.forthSec}>
+      <div className={styles.about}>
+        <h3>About</h3>
+        <ul>
+          {card.about
+            .slice(0, showAll ? card.about.length : 3)
+            .map((item, index) => (
+              <li key={index}>• {item}</li>
+            ))}
+        </ul>
+        <button onClick={toggleShowAll}>
+          {showAll ? (
+            <>
+              <IoIosArrowUp />
+              Show Less
+            </>
+          ) : (
+            <>
+              <IoIosArrowDown />
+              Show More
+            </>
+          )}
+        </button>
+      </div>
     </div>
   );
 };
