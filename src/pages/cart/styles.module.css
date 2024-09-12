@@ -23,12 +23,45 @@
 
 .cartList li {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-self: start;
   gap: 8px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
 }
+.image {
+  width: 280px;
+}
+.logo {
+  width: 80px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  object-fit: contain;
+  width: 70%;
+}
 
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 70%;
+}
+
+.itemInfo p {
+  line-height: 1.6;
+}
+
+.info p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.info p span {
+  font-weight: bold;
+}
 .cartList li:first-child {
   border-top: 1px solid #ccc;
   padding-top: 30px;
@@ -47,6 +80,13 @@
   padding-right: 30px;
 }
 
+.total {
+  font-size: 18px;
+  /* text-align: right; */
+  font-weight: bold;
+  padding-right: 30px;
+}
+
 .checkout {
   display: flex;
   flex-direction: column;
@@ -54,4 +94,20 @@
   padding: 20px;
   background-color: white;
   border: 1px solid #ccc;
+}
+
+.cartList select {
+  border: none;
+  padding: 8px 10px;
+  background-color: #f0f2f1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+  margin-right: 8px;
+}
+
+.itemPrice {
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 8px;
 }
