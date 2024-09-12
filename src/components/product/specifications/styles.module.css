@@ -1,0 +1,41 @@
+.specifications {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.specifications h3 {
+  font-weight: 500;
+}
+.specifications ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.specifications ul li {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.specifications span:first-child {
+  font-weight: 500;
+}
+
+.specifications span {
+  width: 200px;
+  text-align: left !important;
+  /* background-color: red; */
+}
+
+.specifications button {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 113, 113);
+  text-align: left;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.about button {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 113, 113);
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about h3 {
+  font-weight: 500;
+}
+.about ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

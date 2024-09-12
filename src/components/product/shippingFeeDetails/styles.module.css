@@ -1,0 +1,24 @@
+.shippingDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.shippingDetails h4 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+.shippingDetails p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalPriceDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}

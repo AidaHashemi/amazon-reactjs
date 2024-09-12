@@ -54,12 +54,8 @@
       "numOfSales": "15k+ bought in the past month",
       "listPrice": "$999.00",
       "shipping": {
-        "cost": "19.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -88,7 +84,7 @@
         "ramMemorySize": "6 GB",
         "cpuModel": "A15 Bionic"
       },
-      "price": "899",
+      "price": "$899",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -102,12 +98,8 @@
       "numOfSales": "12k+ bought in the past month",
       "listPrice": "$799.00",
       "shipping": {
-        "cost": "29.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -136,7 +128,7 @@
         "ramMemorySize": "6 GB",
         "cpuModel": "A15 Bionic"
       },
-      "price": "719",
+      "price": "$719",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -150,12 +142,8 @@
       "numOfSales": "8k+ bought in the past month",
       "listPrice": "$1,499.00",
       "shipping": {
-        "cost": "39.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -184,7 +172,7 @@
         "ramMemorySize": "8 GB, 16 GB",
         "cpuModel": "Apple M3"
       },
-      "price": "1,349",
+      "price": "$1,349",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -198,12 +186,8 @@
       "numOfSales": "20k+ bought in the past month",
       "listPrice": "$249.00",
       "shipping": {
-        "cost": "48",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "18",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -228,7 +212,7 @@
         "modelName": "AirPods Pro 2",
         "batteryLife": "Up to 30 hours with charging case"
       },
-      "price": "229",
+      "price": "$229",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -242,12 +226,8 @@
       "numOfSales": "5k+ bought in the past month",
       "listPrice": "$299.00",
       "shipping": {
-        "cost": "19.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -272,7 +252,7 @@
         "modelName": "Magic Keyboard",
         "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)"
       },
-      "price": "269",
+      "price": "$269",
       "discount": "10%",
       "productIcon": "apple"
     },
@@ -287,11 +267,7 @@
       "listPrice": "$89.99",
       "shipping": {
         "cost": "9.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Generic",
@@ -316,7 +292,7 @@
         "modelName": "Bluetooth Keyboard Case",
         "compatibleWith": "Various iPad models"
       },
-      "price": "79.99",
+      "price": "$79.99",
       "discount": "11%",
       "productIcon": "generic"
     },
@@ -330,12 +306,8 @@
       "numOfSales": "15k+ bought in the past month",
       "listPrice": "$999.00",
       "shipping": {
-        "cost": "19.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -363,7 +335,7 @@
         "modelName": "iPhone 15 Plus",
         "storage": "128 GB"
       },
-      "price": "949",
+      "price": "$949",
       "discount": "5%",
       "productIcon": "apple"
     },
@@ -377,12 +349,8 @@
       "numOfSales": "10k+ bought in the past month",
       "listPrice": "$129.00",
       "shipping": {
-        "cost": "29.99",
-        "address": "Germany",
-        "details": [
-          "Available at a lower price from other sellers that may not offer free Prime shipping.",
-          "Extra Savings: Promotions applicable with this purchase."
-        ]
+        "cost": "9.99",
+        "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
@@ -406,10 +374,52 @@
         "modelName": "Apple Pencil (2nd Generation)",
         "compatibleWith": "iPad Pro 11-inch, iPad Pro 12.9-inch (3rd generation and later)"
       },
-      "price": "119",
+      "price": "$119",
       "discount": "8%",
       "productIcon": "apple"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "16",
+      "url": "/src/assets/images/magickeyboard.jpg",
+      "title": "Apple Magic Keyboard",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
+      "rate": 4.8,
+      "numOfVotes": "700 ratings",
+      "numOfSales": "5k+ bought in the past month",
+      "listPrice": "$299.00",
+      "shipping": {
+        "cost": "9.99",
+        "address": "Germany"
+      },
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "Magic Keyboard",
+        "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)",
+        "color": "White",
+        "keyboardLayout": "QWERTY",
+        "specialFeature": "Trackpad support, Backlit keys, USB-C port",
+        "batteryLife": "Up to 1 month on a full charge"
+      },
+      "boxIsIncluded": "Magic Keyboard, Documentation",
+      "about": [
+        "Integrated Trackpad: Navigate your iPad with precision using the built-in trackpad.",
+        "Float Design: The Magic Keyboard's unique hinge allows you to adjust the viewing angle.",
+        "Backlit Keys: Illuminate your keys for easy typing in low-light conditions.",
+        "USB-C Port: Convenient charging through the USB-C port on your iPad.",
+        "Optimized for iPadOS: Seamlessly integrated with iPadOS for enhanced productivity."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "Magic Keyboard",
+        "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)"
+      },
+      "price": "$269",
+      "discount": "10%",
+      "productIcon": "apple",
+      "quantity": 18
+    }
+  ]
 }
