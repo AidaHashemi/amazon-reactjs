@@ -1,6 +1,5 @@
 .home {
   position: relative;
   width: 100%;
-  height: 230vh;
-  /* position: relative; */
+  min-height: 240vh;
 }

@@ -2,9 +2,8 @@ import Button from "../../../button";
 import ListComponent from "../../listComponent";
 import styles from "./styles.module.css";
 const AccountDropDown = () => {
-  const list1 = ["Your Lists", "Create a List", "Find a List or Registry"];
+  const list1 = ["Create a List", "Find a List or Registry"];
   const list2 = [
-    "Your Account",
     "Account",
     "Orders",
     "Recommendations",

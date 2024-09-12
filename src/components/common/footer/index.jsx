@@ -1,6 +1,7 @@
 import Logo from "../logo";
 import { IoIosGlobe } from "react-icons/io";
 import usFlag from "../../../assets/svg/usa.svg";
+import ListComponent from "../listComponent";
 import styles from "./styles.module.css";
 
 const footerSections = [
@@ -24,7 +25,7 @@ const footerSections = [
       "Become an Affiliate",
       "Advertise Your Products",
       "Self-Publish with Us",
-      "Host an Amazon Hubs",
+      "Host an Amazon Hub",
       "See More Make Money with Us",
     ],
   },
@@ -53,21 +54,21 @@ const footerSections = [
 ];
 
 const Footer = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <footer className={styles.footer}>
-      <a href="#">
-        <p>Back to top</p>
+      <a href="#" onClick={handleClick}>
+        Back to top
       </a>
       <div className={styles.content}>
         {footerSections.map((section, index) => (
-          <div key={index}>
-            <h3>{section.title}</h3>
-            <ul>
-              {section.items.map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
-            </ul>
-          </div>
+          <ListComponent
+            key={index}
+            title={section.title}
+            items={section.items}
+          />
         ))}
       </div>
       <div className={styles.lastRow}>

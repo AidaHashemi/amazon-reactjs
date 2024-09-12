@@ -13,19 +13,27 @@
 .lists {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 16px;
 }
 
-.lists > :first-child {
+.lists div:first-child {
+  width: 100%;
   border-right: 1px solid #ccc;
+  padding: 10px;
 }
-
+.lists div h3 {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  text-align: left;
+  color: #333;
+  width: 100%;
+  font-size: 16px;
+}
 .lists ul {
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-  gap: 4px;
-  padding: 10px 20px;
-  padding-left: 10px;
+  gap: 8px;
 }
 
 .lists ul li {

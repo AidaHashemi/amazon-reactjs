@@ -1,9 +1,8 @@
-// ListComponent.jsx
 const ListComponent = ({ title, items }) => {
   return (
     <div>
+      {title && <h3 style={{ margin: "0 0 16px 0", padding: "0" }}>{title}</h3>}
       <ul>
-        <li>{title}</li>
         {items.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
