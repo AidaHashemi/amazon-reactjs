@@ -1,6 +1,6 @@
 .card {
-  width: 230px;
-  height: 460px;
+  width: 238px;
+  height: 480px;
   border: 1px solid #ccc;
   display: flex;
   flex-direction: column;
@@ -11,21 +11,22 @@
 }
 
 .card img {
-  width: 90%;
-  height: 150px;
+  width: 80%;
+  height: 180px;
   object-fit: cover;
 }
 
 .title {
   width: 100%;
-  /* background-color: yellow; */
   padding-bottom: 8px;
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
   font-size: 18px;
+  font-weight: 500;
 }
 .price {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .price span:last-child {
@@ -48,4 +49,21 @@
 
 .cardInfo span:last-child:hover {
   color: rgb(228, 52, 52);
+}
+
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.price span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price span:first-child sup {
+  font-size: 12px;
+  margin-inline: 2px;
+  font-weight: 400;
 }

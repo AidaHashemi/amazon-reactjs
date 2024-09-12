@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const containerStyle = {
   display: "flex",
   alignItems: "center",
-  gap: "16px",
+  gap: "8px",
 };
 
 const starContainerStyle = {
@@ -18,6 +18,7 @@ StarRating.propTypes = {
   size: PropTypes.number,
   messages: PropTypes.array,
   className: PropTypes.string,
+  showText: PropTypes.bool,
 };
 
 export default function StarRating({
@@ -27,8 +28,9 @@ export default function StarRating({
   className = "",
   messages = [],
   defaultRating = 0,
+  showText = true,
 }) {
-  const [rating] = useState(defaultRating); // Keep the rating as is, no user interaction
+  const [rating] = useState(defaultRating);
 
   const textStyle = {
     lineHeight: "1",
@@ -39,11 +41,13 @@ export default function StarRating({
 
   return (
     <div style={containerStyle} className={className}>
-      <p style={textStyle}>
-        {messages.length === maxRating
-          ? messages[rating - 1] || ""
-          : rating || ""}
-      </p>
+      {showText && (
+        <p style={textStyle}>
+          {messages.length === maxRating
+            ? messages[rating - 1] || ""
+            : rating || ""}
+        </p>
+      )}
       <div style={starContainerStyle}>
         {Array.from({ length: maxRating }, (_, i) => (
           <Star key={i} full={rating >= i + 1} color={color} size={size} />

@@ -21,7 +21,7 @@ const CardList = () => {
           <Link
             to={`/product/${card.id}`}
             className={styles.cardLink}
-            key={card.id} // Move the key prop here
+            key={card.id}
           >
             <Card
               title={card.title}
@@ -30,6 +30,7 @@ const CardList = () => {
               price={card.price}
               discount={card.discount}
               rate={card.rate}
+              numOfVotes={card.numOfVotes}
             />
           </Link>
         ))}
