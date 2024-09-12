@@ -34,9 +34,6 @@ const Product = () => {
   };
   const formattedDate = date.toLocaleDateString("en-US", options);
 
-  const items = [<ShippingFeeDetails card={card} key="1" />];
-  const items1 = [<ExtraSavingDetails key="11" />];
-
   const handleChange = (event) => {
     const newValue = Number(event.target.value);
     setSelectedNumber(newValue);
@@ -64,6 +61,9 @@ const Product = () => {
       </div>
     );
   };
+
+  const items = [<ShippingFeeDetails card={card} key="1" />];
+  const items1 = [<ExtraSavingDetails key="11" />];
 
   if (loading) return <div>Loading...</div>;
   if (!card) {

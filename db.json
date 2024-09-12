@@ -381,45 +381,48 @@
   ],
   "cart": [
     {
-      "id": "16",
-      "url": "/src/assets/images/magickeyboard.jpg",
-      "title": "Apple Magic Keyboard",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a aperiam quo unde aspernatur culpa nobis eaque sit corporis laborum, est veniam assumenda impedit id, tempora corrupti quia maiores distinctio!",
-      "rate": 4.8,
-      "numOfVotes": "700 ratings",
-      "numOfSales": "5k+ bought in the past month",
-      "listPrice": "$299.00",
+      "id": "18",
+      "url": "/src/assets/images/iphone15plus.jpg",
+      "title": "Apple iPhone 15+",
+      "description": "Experience the power and elegance of the iPhone 15 Plus with its stunning design, advanced camera system, and exceptional performance.",
+      "rate": 4.9,
+      "numOfVotes": "1200 ratings",
+      "numOfSales": "15k+ bought in the past month",
+      "listPrice": "$999.00",
       "shipping": {
         "cost": "9.99",
         "address": "Germany"
       },
       "specifications": {
         "brand": "Apple",
-        "modelName": "Magic Keyboard",
-        "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)",
-        "color": "White",
-        "keyboardLayout": "QWERTY",
-        "specialFeature": "Trackpad support, Backlit keys, USB-C port",
-        "batteryLife": "Up to 1 month on a full charge"
+        "modelName": "iPhone 15 Plus",
+        "storage": "128 GB",
+        "color": "Preto",
+        "display": "6.7 inches Super Retina XDR",
+        "camera": "Dual 48MP + 12MP rear camera system",
+        "cpuModel": "A16 Bionic chip",
+        "batteryLife": "All-day battery life",
+        "operatingSystem": "iOS 17",
+        "specialFeature": "5G capable, Ceramic Shield, Face ID"
       },
-      "boxIsIncluded": "Magic Keyboard, Documentation",
+      "boxIsIncluded": "iPhone 15 Plus, USB-C to Lightning Cable, Documentation",
       "about": [
-        "Integrated Trackpad: Navigate your iPad with precision using the built-in trackpad.",
-        "Float Design: The Magic Keyboard's unique hinge allows you to adjust the viewing angle.",
-        "Backlit Keys: Illuminate your keys for easy typing in low-light conditions.",
-        "USB-C Port: Convenient charging through the USB-C port on your iPad.",
-        "Optimized for iPadOS: Seamlessly integrated with iPadOS for enhanced productivity."
+        "Stunning Display: 6.7-inch Super Retina XDR display for vibrant visuals.",
+        "Powerful Performance: Equipped with the A16 Bionic chip for lightning-fast processing.",
+        "Advanced Camera System: Capture incredible photos and videos with a versatile dual-camera system.",
+        "Durable Design: Ceramic Shield front cover offers better drop performance.",
+        "5G Technology: Experience fast connectivity and download speeds."
       ],
-      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally, and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
       "model": {
         "brand": "Apple",
-        "modelName": "Magic Keyboard",
-        "compatibleWith": "iPad Pro 11-inch (3rd generation), iPad Air (4th generation)"
+        "modelName": "iPhone 15 Plus",
+        "storage": "128 GB"
       },
-      "price": "$269",
-      "discount": "10%",
+      "price": "$949",
+      "discount": "5%",
       "productIcon": "apple",
-      "quantity": 18
+      "quantity": 1
     }
   ]
 }
