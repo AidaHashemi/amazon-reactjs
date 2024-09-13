@@ -379,5 +379,50 @@
       "productIcon": "apple"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "18",
+      "url": "/src/assets/images/iphone15plus.jpg",
+      "title": "Apple iPhone 15+",
+      "description": "Experience the power and elegance of the iPhone 15 Plus with its stunning design, advanced camera system, and exceptional performance.",
+      "rate": 4.9,
+      "numOfVotes": "1200 ratings",
+      "numOfSales": "15k+ bought in the past month",
+      "listPrice": "$999.00",
+      "shipping": {
+        "cost": "9.99",
+        "address": "Germany"
+      },
+      "specifications": {
+        "brand": "Apple",
+        "modelName": "iPhone 15 Plus",
+        "storage": "128 GB",
+        "color": "Preto",
+        "display": "6.7 inches Super Retina XDR",
+        "camera": "Dual 48MP + 12MP rear camera system",
+        "cpuModel": "A16 Bionic chip",
+        "batteryLife": "All-day battery life",
+        "operatingSystem": "iOS 17",
+        "specialFeature": "5G capable, Ceramic Shield, Face ID"
+      },
+      "boxIsIncluded": "iPhone 15 Plus, USB-C to Lightning Cable, Documentation",
+      "about": [
+        "Stunning Display: 6.7-inch Super Retina XDR display for vibrant visuals.",
+        "Powerful Performance: Equipped with the A16 Bionic chip for lightning-fast processing.",
+        "Advanced Camera System: Capture incredible photos and videos with a versatile dual-camera system.",
+        "Durable Design: Ceramic Shield front cover offers better drop performance.",
+        "5G Technology: Experience fast connectivity and download speeds."
+      ],
+      "note": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally, and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "model": {
+        "brand": "Apple",
+        "modelName": "iPhone 15 Plus",
+        "storage": "128 GB"
+      },
+      "price": "$949",
+      "discount": "5%",
+      "productIcon": "apple",
+      "quantity": 1
+    }
+  ]
 }

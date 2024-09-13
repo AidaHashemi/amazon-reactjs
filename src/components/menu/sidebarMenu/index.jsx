@@ -1,9 +1,12 @@
 import { useState } from "react";
-import styles from "./styles.module.css";
+
 import { FaUserCircle } from "react-icons/fa";
-import { IoIosArrowForward, IoMdArrowBack } from "react-icons/io";
-import usFlag from "../../../assets/svg/usa.svg";
 import { TfiWorld } from "react-icons/tfi";
+import { IoIosArrowForward, IoMdArrowBack } from "react-icons/io";
+
+import usFlag from "../../../assets/svg/usa.svg";
+
+import styles from "./styles.module.css";
 
 const SidebarMenu = ({ isOpen, onClose }) => {
   const [currentMenu, setCurrentMenu] = useState("main");
