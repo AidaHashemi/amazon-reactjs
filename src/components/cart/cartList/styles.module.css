@@ -1,0 +1,28 @@
+.deleteAllBtn {
+  border: none;
+  background-color: transparent;
+  color: #537179;
+  cursor: pointer;
+  width: 150px;
+  text-align: left;
+  font-size: 16px;
+}
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.totalPrice {
+  font-size: 18px;
+  text-align: right;
+  font-weight: bold;
+  padding-right: 30px;
+}
+/* .cartList select {
+  border: none;
+  padding: 8px 10px;
+  background-color: #f0f2f1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+  margin-right: 8px;
+} */

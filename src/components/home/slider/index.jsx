@@ -8,8 +8,6 @@ import img4 from "../../../assets/images/4.jpg";
 import img5 from "../../../assets/images/5.jpg";
 import img6 from "../../../assets/images/6.png";
 
-// TODO CHANGE IMAGES
-
 import styles from "./styles.module.css";
 
 const Slider = () => {

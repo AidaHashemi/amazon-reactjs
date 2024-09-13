@@ -1,0 +1,16 @@
+.total {
+  font-size: 18px;
+  /* text-align: right; */
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.checkout {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
