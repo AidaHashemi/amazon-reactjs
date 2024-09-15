@@ -1,18 +1,24 @@
 import { createContext, useState, useEffect } from "react";
 import axios from "axios";
+import Spinner from "../components/ui/spinner/Spinner"; // Import the Spinner component
+import { toast } from "react-toastify"; // Import Toastify
 
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  // Function to fetch cart data from server
   const fetchCartData = async () => {
+    setLoading(true);
     try {
       const response = await axios.get("http://localhost:5000/cart");
       setCart(response.data);
     } catch (error) {
       console.error("Error fetching cart data:", error);
+      toast.error("Failed to fetch cart data."); // Show error toast
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -26,7 +32,7 @@ export const CartProvider = ({ children }) => {
     if (existingCartItem) {
       const updatedCartItem = {
         ...existingCartItem,
-        quantity: quantity, // Replace old quantity with new one
+        quantity,
       };
 
       try {
@@ -39,8 +45,10 @@ export const CartProvider = ({ children }) => {
             item.id === existingCartItem.id ? response.data : item
           )
         );
+        toast.success("Cart item updated successfully!"); // Show success toast
       } catch (error) {
         console.error("Error updating cart item:", error);
+        toast.error("Failed to update cart item."); // Show error toast
       }
     } else {
       const newCartItem = { ...product, quantity };
@@ -51,8 +59,10 @@ export const CartProvider = ({ children }) => {
           newCartItem
         );
         setCart([...cart, response.data]);
+        toast.success("Item added to cart!"); // Show success toast
       } catch (error) {
         console.error("Error adding to cart:", error);
+        toast.error("Failed to add item to cart."); // Show error toast
       }
     }
   };
@@ -63,7 +73,7 @@ export const CartProvider = ({ children }) => {
     if (existingCartItem) {
       const updatedCartItem = {
         ...existingCartItem,
-        quantity: quantity,
+        quantity,
       };
 
       try {
@@ -74,8 +84,10 @@ export const CartProvider = ({ children }) => {
         setCart(
           cart.map((item) => (item.id === productId ? response.data : item))
         );
+        toast.success("Cart item quantity updated!"); // Show success toast
       } catch (error) {
         console.error("Error updating cart item quantity:", error);
+        toast.error("Failed to update item quantity."); // Show error toast
       }
     }
   };
@@ -84,25 +96,25 @@ export const CartProvider = ({ children }) => {
     try {
       await axios.delete(`http://localhost:5000/cart/${productId}`);
       setCart(cart.filter((item) => item.id !== productId));
+      toast.success("Item removed from cart!"); // Show success toast
     } catch (error) {
       console.error("Error removing cart item:", error);
+      toast.error("Failed to remove cart item."); // Show error toast
     }
   };
 
-  // Function to clear all cart items
   const clearCart = async () => {
     try {
-      // Delete all items from db.json
       await Promise.all(
         cart.map((item) =>
           axios.delete(`http://localhost:5000/cart/${item.id}`)
         )
       );
-
-      // Clear the local cart state
       setCart([]);
+      toast.success("Cart cleared!"); // Show success toast
     } catch (error) {
       console.error("Error clearing cart:", error);
+      toast.error("Failed to clear cart."); // Show error toast
     }
   };
 
@@ -116,7 +128,7 @@ export const CartProvider = ({ children }) => {
         clearCart,
       }}
     >
-      {children}
+      {loading ? <Spinner /> : children}
     </CartContext.Provider>
   );
 };

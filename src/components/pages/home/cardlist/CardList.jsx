@@ -8,9 +8,7 @@ import Card from "../card/Card";
 import styles from "./CardList.module.css";
 
 const CardList = () => {
-  const { cards, loading } = useContext(CardContext);
-
-  if (loading) return <div>Loading...</div>;
+  const { cards } = useContext(CardContext);
 
   return (
     <div className={styles.wrapper}>
