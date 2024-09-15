@@ -1,6 +1,6 @@
-import Button from "../../../ui/button";
+import Button from "../../../ui/button/Button";
 import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
-import styles from "./styles.module.css";
+import styles from "./Checkout.module.css";
 
 const Checkout = ({ cart }) => {
   const totalQuantity = cart.reduce(

@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from "react";
 import axios from "axios";
-import Spinner from "../components/ui/spinner";
+import Spinner from "../components/ui/spinner/Spinner";
 
 export const CardContext = createContext();
 

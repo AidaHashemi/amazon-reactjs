@@ -6,11 +6,11 @@ import { IoMdRadioButtonOn } from "react-icons/io";
 
 import { CartContext } from "../../../../context/CartContext";
 
-import Button from "../../../ui/button";
-import QuantitySelector from "../../../ui/quantitySelector";
+import Button from "../../../ui/button/Button";
+import QuantitySelector from "../../../ui/quantitySelector/QuantitySelector";
 import FormattedDate from "../../../common/formattedDate/FormattedDate";
 
-import styles from "./styles.module.css";
+import styles from "./AddToCart.module.css";
 
 const AddToCart = ({ card }) => {
   const { id } = useParams();

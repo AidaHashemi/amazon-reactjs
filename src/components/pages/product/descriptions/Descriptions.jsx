@@ -1,5 +1,5 @@
 import StarRating from "../../../ui/startRating/StarRating";
-import styles from "./styles.module.css";
+import styles from "./Descriptions.module.css";
 
 const Descriptions = ({ card }) => {
   return (

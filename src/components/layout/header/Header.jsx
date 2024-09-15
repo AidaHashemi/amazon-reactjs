@@ -1,12 +1,12 @@
 import { IoLocationOutline } from "react-icons/io5";
 
-import NavigationMenu from "../../menu/navigationMenu";
+import NavigationMenu from "../../menu/navigationMenu/NavigationMenu";
 
-import Logo from "../logo";
-import SearchBar from "./searchBar";
-import HeadMenu from "./headMenu";
+import Logo from "../logo/Logo";
+import SearchBar from "./searchBar/SearchBar";
+import HeadMenu from "./headMenu/HeadMenu";
 
-import styles from "./styles.module.css";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (

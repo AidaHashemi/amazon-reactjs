@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import amazon from "../../../assets/svg/amazon.svg";
-import styles from "./styles.module.css";
+import styles from "./Logo.module.css";
 
 const Logo = () => {
   const navigate = useNavigate();

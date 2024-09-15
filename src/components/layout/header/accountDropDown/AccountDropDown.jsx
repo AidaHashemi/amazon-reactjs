@@ -1,6 +1,6 @@
-import Button from "../../../ui/button";
-import ListComponent from "../../../common/listComponent";
-import styles from "./styles.module.css";
+import Button from "../../../ui/button/Button";
+import ListComponent from "../../../common/listComponent/ListComponent";
+import styles from "./AccountDropDown.module.css";
 const AccountDropDown = () => {
   const list1 = ["Create a List", "Find a List or Registry"];
   const list2 = [

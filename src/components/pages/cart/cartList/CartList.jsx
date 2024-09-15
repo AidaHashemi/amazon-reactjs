@@ -1,8 +1,8 @@
 import { useState, useContext } from "react";
 import { CartContext } from "../../../../context/CartContext";
 import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
-import CartItem from "../cartItem";
-import styles from "./styles.module.css";
+import CartItem from "../cartItem/CartItem";
+import styles from "./CartList.module.css";
 const CartList = () => {
   const [editingItem, setEditingItem] = useState(null);
   const [newQuantity, setNewQuantity] = useState(1);

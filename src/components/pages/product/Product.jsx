@@ -5,13 +5,13 @@ import { GoNote } from "react-icons/go";
 
 import { CardContext } from "../../../context/CardContext";
 
-import Descriptions from "./descriptions";
-import Specifications from "./specifications";
-import Costs from "./costs";
-import AboutSection from "./aboutSection";
-import AddToCart from "./addToCart";
+import Descriptions from "./descriptions/Descriptions";
+import Specifications from "./specifications/Specifications";
+import Costs from "./costs/Costs";
+import AboutSection from "./aboutSection/AboutSection";
+import AddToCart from "./addToCart/AddToCart";
 
-import styles from "./styles.module.css";
+import styles from "./Product.module.css";
 
 const Product = () => {
   const { id } = useParams();

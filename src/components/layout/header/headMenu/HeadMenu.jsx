@@ -5,12 +5,12 @@ import { BsCart2 } from "react-icons/bs";
 
 import { CartContext } from "../../../../context/CartContext";
 
-import DropdownMenu from "../../../menu/dropdownMenu";
-import LangDropDown from "../langDropDown";
-import AccountDropDown from "../accountDropDown";
+import DropdownMenu from "../../../menu/dropdownMenu/DropdownMenu";
+import LangDropDown from "../langDropDown/LangDropDown";
+import AccountDropDown from "../accountDropDown/AccountDropDown";
 
 import usFlag from "../../../../assets/svg/usa.svg";
-import styles from "./styles.module.css";
+import styles from "./HeadMenu.module.css";
 
 const HeadMenu = () => {
   const { cart } = useContext(CartContext);

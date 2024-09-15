@@ -6,7 +6,7 @@ import { IoIosArrowForward, IoMdArrowBack } from "react-icons/io";
 
 import usFlag from "../../../assets/svg/usa.svg";
 
-import styles from "./styles.module.css";
+import styles from "./SidebarMenu.module.css";
 
 const SidebarMenu = ({ isOpen, onClose }) => {
   const [currentMenu, setCurrentMenu] = useState("main");

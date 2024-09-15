@@ -1,10 +1,10 @@
 import { FaCheck } from "react-icons/fa";
 
-import QuantitySelector from "../../../ui/quantitySelector";
+import QuantitySelector from "../../../ui/quantitySelector/QuantitySelector";
 import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
 import primeLogo from "../../../../assets/svg/prime.svg";
 
-import styles from "./styles.module.css";
+import styles from "./CartItem.module.css";
 
 const CartItem = ({
   item,

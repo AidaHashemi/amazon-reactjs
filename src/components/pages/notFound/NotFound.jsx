@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { CardContext } from "./../../../context/CardContext";
-import Button from "../../ui/button";
-import styles from "./styles.module.css";
-import Spinner from "../../ui/spinner";
+import { CardContext } from "../../../context/CardContext";
+import Button from "../../ui/button/Button";
+import styles from "./NotFound.module.css";
+import Spinner from "../../ui/spinner/Spinner";
 const NotFound = () => {
   const { loading } = useContext(CardContext);
 

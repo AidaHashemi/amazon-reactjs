@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Header from "./components/layout/header";
-import Footer from "./components/layout/footer";
+import Header from "./components/layout/header/Header";
+import Footer from "./components/layout/footer/Footer";
 
-import Home from "./components/pages/home";
-import Product from "./components/pages/product";
-import Cart from "./components/pages/cart";
-import NotFound from "./components/pages/notFound";
+import Home from "./components/pages/home/Home";
+import Product from "./components/pages/product/Product";
+import Cart from "./components/pages/cart/Cart";
+import NotFound from "./components/pages/notFound/NotFound";
 
 const App = () => {
   return (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
-import SidebarMenu from "../sidebarMenu";
-import styles from "./styles.module.css";
+import SidebarMenu from "../sidebarMenu/SidebarMenu";
+import styles from "./NavigationMenu.module.css";
 
 // TODO add this part to header
 const NavigationMenu = () => {

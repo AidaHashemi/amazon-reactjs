@@ -1,9 +1,9 @@
 import { CardProvider } from "../../../context/CardContext";
 
-import Slider from "./slider";
-import CardList from "./cardlist";
+import Slider from "./slider/Slider";
+import CardList from "./cardlist/CardList";
 
-import styles from "./styles.module.css";
+import styles from "./Home.module.css";
 
 const Home = () => {
   return (

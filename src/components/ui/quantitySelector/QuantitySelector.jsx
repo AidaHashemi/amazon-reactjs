@@ -1,4 +1,4 @@
-import styles from "./styles.module.css";
+import styles from "./QuantitySelector.module.css";
 
 const QuantitySelector = ({ selectedNumber, handleChange }) => (
   <select

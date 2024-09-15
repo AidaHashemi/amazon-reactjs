@@ -1,8 +1,8 @@
 import { IoIosGlobe } from "react-icons/io";
-import Logo from "../logo";
+import Logo from "../logo/Logo";
 import usFlag from "../../../assets/svg/usa.svg";
-import ListComponent from "../../common/listComponent";
-import styles from "./styles.module.css";
+import ListComponent from "../../common/listComponent/ListComponent";
+import styles from "./Footer.module.css";
 
 const footerSections = [
   {

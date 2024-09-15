@@ -2,9 +2,10 @@ import { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 
-import styles from "./styles.module.css";
+import styles from "./Specifications.module.css";
 
-const AboutSection = ({ card }) => {
+const Specifications = ({ card }) => {
+  const keys = Object.keys(card.specifications);
   const [showAll, setShowAll] = useState(false);
 
   // Function to toggle the show state
@@ -13,15 +14,15 @@ const AboutSection = ({ card }) => {
   };
 
   return (
-    <div className={styles.forthSec}>
-      <div className={styles.about}>
-        <h3>About</h3>
+    <div className={styles.thirdSec}>
+      <div className={styles.specifications}>
+        <h3>Specifications</h3>
         <ul>
-          {card.about
-            .slice(0, showAll ? card.about.length : 3)
-            .map((item, index) => (
-              <li key={index}>• {item}</li>
-            ))}
+          {keys.slice(0, showAll ? keys.length : 5).map((key) => (
+            <li key={key}>
+              <span>{key}</span> <span> {card.specifications[key]}</span>
+            </li>
+          ))}
         </ul>
         <button onClick={toggleShowAll}>
           {showAll ? (
@@ -41,4 +42,4 @@ const AboutSection = ({ card }) => {
   );
 };
 
-export default AboutSection;
+export default Specifications;

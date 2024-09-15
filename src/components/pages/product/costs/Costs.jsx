@@ -1,8 +1,8 @@
 import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
-import DropdownMenu from "../../../menu/dropdownMenu";
-import ShippingFeeDetails from "../shippingFeeDetails";
+import DropdownMenu from "../../../menu/dropdownMenu/DropdownMenu";
+import ShippingFeeDetails from "../shippingFeeDetails/ShippingFeeDetails";
 import { IoIosArrowDown } from "react-icons/io";
-import styles from "./styles.module.css";
+import styles from "./Costs.module.css";
 
 const Costs = ({ card }) => {
   const ExtraSavingDetails = () => {

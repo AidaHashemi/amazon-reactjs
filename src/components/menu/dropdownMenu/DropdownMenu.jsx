@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./styles.module.css";
+import styles from "./DropdownMenu.module.css";
 
 const DropdownMenu = ({
   menuItems = [],

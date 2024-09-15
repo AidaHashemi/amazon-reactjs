@@ -8,7 +8,7 @@ import img4 from "../../../../assets/images/4.jpg";
 import img5 from "../../../../assets/images/5.jpg";
 import img6 from "../../../../assets/images/6.png";
 
-import styles from "./styles.module.css";
+import styles from "./Slider.module.css";
 
 const Slider = () => {
   const images = [img1, img2, img3, img4, img5, img6];

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 import { CartContext } from "../../../context/CartContext";
 
-import CartList from "./cartList";
-import Checkout from "./chekout";
+import CartList from "./cartList/CartList";
+import Checkout from "./chekout/Checkout";
 
-import styles from "./styles.module.css";
+import styles from "./Cart.module.css";
 
 const Cart = () => {
   const { cart } = useContext(CartContext);

@@ -1,5 +1,5 @@
 import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
-import styles from "./styles.module.css";
+import styles from "./ShippingFeeDetails.module.css";
 const ShippingFeeDetails = ({ card }) => {
   return (
     <div className={styles.shippingDetails}>
