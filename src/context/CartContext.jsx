@@ -1,7 +1,8 @@
 import { createContext, useState, useEffect } from "react";
+import { toast } from "react-toastify";
 import axios from "axios";
-import Spinner from "../components/ui/spinner/Spinner"; // Import the Spinner component
-import { toast } from "react-toastify"; // Import Toastify
+
+import Spinner from "../components/ui/spinner/Spinner";
 
 export const CartContext = createContext();
 
@@ -16,7 +17,7 @@ export const CartProvider = ({ children }) => {
       setCart(response.data);
     } catch (error) {
       console.error("Error fetching cart data:", error);
-      toast.error("Failed to fetch cart data."); // Show error toast
+      toast.error("Failed to fetch cart data.");
     } finally {
       setLoading(false);
     }
@@ -45,10 +46,10 @@ export const CartProvider = ({ children }) => {
             item.id === existingCartItem.id ? response.data : item
           )
         );
-        toast.success("Cart item updated successfully!"); // Show success toast
+        toast.success("Cart item updated successfully!");
       } catch (error) {
         console.error("Error updating cart item:", error);
-        toast.error("Failed to update cart item."); // Show error toast
+        toast.error("Failed to update cart item.");
       }
     } else {
       const newCartItem = { ...product, quantity };
@@ -59,10 +60,10 @@ export const CartProvider = ({ children }) => {
           newCartItem
         );
         setCart([...cart, response.data]);
-        toast.success("Item added to cart!"); // Show success toast
+        toast.success("Item added to cart!");
       } catch (error) {
         console.error("Error adding to cart:", error);
-        toast.error("Failed to add item to cart."); // Show error toast
+        toast.error("Failed to add item to cart.");
       }
     }
   };
@@ -84,10 +85,10 @@ export const CartProvider = ({ children }) => {
         setCart(
           cart.map((item) => (item.id === productId ? response.data : item))
         );
-        toast.success("Cart item quantity updated!"); // Show success toast
+        toast.success("Cart item quantity updated!");
       } catch (error) {
         console.error("Error updating cart item quantity:", error);
-        toast.error("Failed to update item quantity."); // Show error toast
+        toast.error("Failed to update item quantity.");
       }
     }
   };
@@ -96,10 +97,10 @@ export const CartProvider = ({ children }) => {
     try {
       await axios.delete(`http://localhost:5000/cart/${productId}`);
       setCart(cart.filter((item) => item.id !== productId));
-      toast.success("Item removed from cart!"); // Show success toast
+      toast.success("Item removed from cart!");
     } catch (error) {
       console.error("Error removing cart item:", error);
-      toast.error("Failed to remove cart item."); // Show error toast
+      toast.error("Failed to remove cart item.");
     }
   };
 
@@ -111,10 +112,10 @@ export const CartProvider = ({ children }) => {
         )
       );
       setCart([]);
-      toast.success("Cart cleared!"); // Show success toast
+      toast.success("Cart cleared!");
     } catch (error) {
       console.error("Error clearing cart:", error);
-      toast.error("Failed to clear cart."); // Show error toast
+      toast.error("Failed to clear cart.");
     }
   };
 

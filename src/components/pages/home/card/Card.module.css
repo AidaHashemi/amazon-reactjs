@@ -1,17 +1,16 @@
 .card {
-  width: 238px;
   height: 480px;
   border: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   padding: 16px 8px;
   background-color: #fff;
 }
 
 .card img {
-  width: 80%;
+  width: 180px;
   height: 180px;
   object-fit: cover;
 }

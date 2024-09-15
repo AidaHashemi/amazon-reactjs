@@ -15,11 +15,10 @@ import styles from "./Product.module.css";
 
 const Product = () => {
   const { id } = useParams();
-  const { cards, loading } = useContext(CardContext);
+  const { cards } = useContext(CardContext);
 
   const card = cards.find((card) => card.id === id);
 
-  if (loading) return <div>Loading...</div>;
   if (!card) return <div>Product not found</div>;
 
   return (
@@ -44,7 +43,6 @@ const Product = () => {
           {card.note}
         </div>
       </div>
-
       <AddToCart card={card} />
     </div>
   );

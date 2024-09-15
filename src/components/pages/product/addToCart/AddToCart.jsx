@@ -9,6 +9,7 @@ import { CartContext } from "../../../../context/CartContext";
 import Button from "../../../ui/button/Button";
 import QuantitySelector from "../../../ui/quantitySelector/QuantitySelector";
 import FormattedDate from "../../../common/formattedDate/FormattedDate";
+import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
 
 import styles from "./AddToCart.module.css";
 
@@ -22,6 +23,9 @@ const AddToCart = ({ card }) => {
     useContext(CartContext);
 
   const isInCart = cart.some((item) => item.id === id);
+
+  const totalPrice =
+    selectedNumber * DiscountedAmount(card.price, card.discount);
 
   const handleChange = (event) => {
     const newValue = Number(event.target.value);
@@ -59,6 +63,11 @@ const AddToCart = ({ card }) => {
         <IoMdRadioButtonOn />
       </span>
       <span>Buy New:</span>
+      <span className={styles.price}>
+        <sup>$</sup>
+        {totalPrice}
+        <sup>99</sup>
+      </span>
       <p className={styles.shipp}>
         ${card.shipping.cost} Shipping & Import Fees Deposit to{" "}
         {card.shipping.address} <br />

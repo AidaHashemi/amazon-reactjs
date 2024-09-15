@@ -1,12 +1,14 @@
 .productDetails {
+  width: 100%;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   min-height: 100vh;
   padding: 30px;
   background-color: #fff;
 }
 
 .productInfo {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -15,7 +17,6 @@
 
 .imgContainer {
   padding: 20px;
-  /* background-color: tan; */
 }
 .imgContainer img {
   width: 250px;

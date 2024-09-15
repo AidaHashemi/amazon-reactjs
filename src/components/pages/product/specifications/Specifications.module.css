@@ -29,11 +29,13 @@
 }
 
 .specifications span {
-  width: 200px;
+  width: 300px;
   text-align: left !important;
-  /* background-color: red; */
 }
 
+.specifications span:last-child {
+  font-size: 15px;
+}
 .specifications button {
   width: 100px;
   border: none;

@@ -4,13 +4,6 @@
   padding: 0 16px;
 }
 
-/* .topbarMenu ul {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  gap: 16px;
-} */
-
 .topbarMenu ul li {
   color: #fff;
   display: flex;

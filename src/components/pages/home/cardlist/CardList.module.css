@@ -1,12 +1,12 @@
 .wrapper {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   gap: 32px;
   align-items: center;
   position: absolute;
   padding: 48px 0;
-  top: 300px;
+  top: 250px;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -16,14 +16,14 @@
 }
 .cardList {
   display: grid;
-  grid-template-columns: repeat(5, 238px);
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
   justify-content: center;
   gap: 8px;
 }
-/* CHANGE-LATER  WIDTH */
+
 .parag {
-  width: 1180px;
+  width: 100%;
   background-color: #fff;
   text-align: center;
   padding: 5px;

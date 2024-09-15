@@ -1,15 +1,26 @@
 .addToCart {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 38% !important;
-  height: 550px;
+  gap: 10px;
+  width: 480px !important;
+  height: 500px;
   padding: 20px 10px;
   border: 1px solid #ccc;
   position: relative;
   border-radius: 8px;
   font-size: 15px;
-  /* background-color: yellowgreen; */
+}
+
+.price {
+  display: flex;
+  gap: 2px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.price sup {
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .addToCart .shipp {
@@ -18,6 +29,7 @@
 
 .addToCart .shipp span {
   color: #777;
+  margin-right: 8px;
 }
 
 .shipp em {
@@ -26,6 +38,8 @@
 .deliverTo {
   color: rgb(23, 142, 178);
   font-size: 14px;
+  display: flex;
+  gap: 8px;
 }
 
 .form {
@@ -57,7 +71,6 @@
 .extraInformation p {
   display: flex;
   justify-content: space-between;
-  /* align-items: center;  */
 }
 .extraInformation span {
   width: 50%;

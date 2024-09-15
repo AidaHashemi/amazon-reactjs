@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-self: start;
-  gap: 8px;
+  gap: 16px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
   width: 100%;
@@ -52,7 +52,7 @@
   font-size: 16px;
 }
 .actions button {
-  font-size: 16px;
+  font-size: 14px;
   border: none;
   outline: none;
   color: #537179;
@@ -69,6 +69,7 @@
 }
 
 .actions a {
+  white-space: nowrap;
   text-decoration: none;
   border-left: 1px solid #537179;
   padding: 0 8px;
@@ -79,6 +80,5 @@
 .itemPrice {
   white-space: nowrap;
   font-weight: bold;
-  font-size: 18px;
-  margin-top: 8px;
+  font-size: 16px;
 }

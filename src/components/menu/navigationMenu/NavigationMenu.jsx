@@ -3,7 +3,6 @@ import { IoMdMenu } from "react-icons/io";
 import SidebarMenu from "../sidebarMenu/SidebarMenu";
 import styles from "./NavigationMenu.module.css";
 
-// TODO add this part to header
 const NavigationMenu = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
