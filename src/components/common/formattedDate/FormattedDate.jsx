@@ -1,4 +1,3 @@
-// Helper Component for Date Formatting
 const FormattedDate = () => {
   const date = new Date();
   const options = { weekday: "long", month: "long", day: "numeric" };

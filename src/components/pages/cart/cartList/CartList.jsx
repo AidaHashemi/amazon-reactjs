@@ -1,13 +1,18 @@
 import { useState, useContext } from "react";
+
 import { CartContext } from "../../../../context/CartContext";
+
 import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
 import CartItem from "../cartItem/CartItem";
+
 import styles from "./CartList.module.css";
 const CartList = () => {
   const [editingItem, setEditingItem] = useState(null);
   const [newQuantity, setNewQuantity] = useState(1);
+
   const { cart, updateCartItemQuantity, removeFromCart, clearCart } =
     useContext(CartContext);
+
   const handleQuantityChange = (item, quantity) => {
     setEditingItem(item.id);
     setNewQuantity(quantity);
@@ -17,6 +22,7 @@ const CartList = () => {
     updateCartItemQuantity(item.id, newQuantity);
     setEditingItem(null); // Reset after update
   };
+
   const totalPrice = cart.reduce(
     (total, item) =>
       total +

@@ -1,7 +1,10 @@
 import { IoIosGlobe } from "react-icons/io";
-import Logo from "../logo/Logo";
-import usFlag from "../../../assets/svg/usa.svg";
+
 import ListComponent from "../../common/listComponent/ListComponent";
+import Logo from "../logo/Logo";
+
+import usFlag from "../../../assets/svg/usa.svg";
+
 import styles from "./Footer.module.css";
 
 const footerSections = [
@@ -57,6 +60,7 @@ const Footer = () => {
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
+
   return (
     <footer className={styles.footer}>
       <a href="#" onClick={handleClick}>

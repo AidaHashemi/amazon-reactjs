@@ -10,6 +10,7 @@ import LangDropDown from "../langDropDown/LangDropDown";
 import AccountDropDown from "../accountDropDown/AccountDropDown";
 
 import usFlag from "../../../../assets/svg/usa.svg";
+
 import styles from "./HeadMenu.module.css";
 
 const HeadMenu = () => {

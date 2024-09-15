@@ -1,7 +1,9 @@
-import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
-import DropdownMenu from "../../../menu/dropdownMenu/DropdownMenu";
-import ShippingFeeDetails from "../shippingFeeDetails/ShippingFeeDetails";
 import { IoIosArrowDown } from "react-icons/io";
+
+import DropdownMenu from "../../../menu/dropdownMenu/DropdownMenu";
+import DiscountedAmount from "../../../common/discountedAmount/DiscountedAmount";
+import ShippingFeeDetails from "../shippingFeeDetails/ShippingFeeDetails";
+
 import styles from "./Costs.module.css";
 
 const Costs = ({ card }) => {
@@ -29,7 +31,7 @@ const Costs = ({ card }) => {
         Price:{" "}
         <span style={{ textDecoration: "line-through" }}>{card.price}</span>
       </p>
-      <p className={styles.shipping}>
+      <div className={styles.shipping}>
         {card.shipping.cost} Shipping & Import Fees Deposit to{" "}
         {card.shipping.address}
         <span>
@@ -45,12 +47,12 @@ const Costs = ({ card }) => {
             menuItemStyle={{ color: "#333", width: "300px" }}
           />
         </span>
-      </p>
+      </div>
       <p>
         Available at a lower price from other sellers that may not offer free
         Prime shipping.
       </p>
-      <p className={styles.extraSaving}>
+      <div className={styles.extraSaving}>
         <span className={styles.extraBtn}>Extra Saving</span>
         <DropdownMenu
           defaultTextColor="#333"
@@ -65,7 +67,7 @@ const Costs = ({ card }) => {
           }
           menuItemStyle={{ color: "#333", width: "450px" }}
         />
-      </p>
+      </div>
     </div>
   );
 };

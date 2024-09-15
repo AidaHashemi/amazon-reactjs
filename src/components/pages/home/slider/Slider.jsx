@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Importing React Icons
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 import img1 from "../../../../assets/images/1.jpg";
 import img2 from "../../../../assets/images/2.jpg";

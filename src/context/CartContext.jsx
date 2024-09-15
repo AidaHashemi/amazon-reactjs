@@ -113,7 +113,7 @@ export const CartProvider = ({ children }) => {
         addToCart,
         updateCartItemQuantity,
         removeFromCart,
-        clearCart, // Expose clearCart to components
+        clearCart,
       }}
     >
       {children}

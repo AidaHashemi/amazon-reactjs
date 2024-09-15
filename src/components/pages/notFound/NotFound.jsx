@@ -1,14 +1,19 @@
 import { useContext } from "react";
+
 import { CardContext } from "../../../context/CardContext";
+
 import Button from "../../ui/button/Button";
-import styles from "./NotFound.module.css";
 import Spinner from "../../ui/spinner/Spinner";
+
+import styles from "./NotFound.module.css";
+
 const NotFound = () => {
   const { loading } = useContext(CardContext);
 
   if (loading) {
     return <Spinner />;
   }
+
   return (
     <div className={styles.notFound}>
       <h2 className={styles.title}>404</h2>

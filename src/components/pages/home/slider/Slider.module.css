@@ -55,11 +55,9 @@
 .slider .prev {
   top: 30%;
   left: 20px;
-  /* transform: translate(0, -50%); */
 }
 
 .slider .next {
   top: 30%;
   right: 20px;
-  /* transform: translate(0, -50%); */
 }

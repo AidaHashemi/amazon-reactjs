@@ -1,5 +1,7 @@
 import { IoMdSearch, IoMdArrowDropdown } from "react-icons/io";
+
 import DropdownMenu from "../../../menu/dropdownMenu/DropdownMenu";
+
 import styles from "./SearchBar.module.css";
 
 const SearchBar = () => {
